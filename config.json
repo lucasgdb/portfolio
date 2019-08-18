@@ -5,10 +5,14 @@
   "userimg": "https://avatars3.githubusercontent.com/u/13838273?v=4",
   "sort": "star",
   "order": "desc",
-  "includeFork": false,
-  "theme": "dark.css",
-  "twitter": "lucasnaja0",
+  "includeFork": true,
+  "theme": "light.css",
+  "twitter": "@lucasnaja0",
   "linkedin": "lucas-bittencourt",
-  "medium": null
+  "medium": null,
+  "types": [
+   "owner"
+  ],
+  "dribbble": null
  }
 ]
