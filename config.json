@@ -1,18 +1,18 @@
 [
- {
-  "username": "lucasnaja",
-  "name": "Lucas Bittencourt",
-  "userimg": "https://avatars3.githubusercontent.com/u/13838273?v=4",
-  "sort": "star",
-  "order": "desc",
-  "includeFork": true,
-  "theme": "light.css",
-  "twitter": "@lucasnaja0",
-  "linkedin": "lucas-bittencourt",
-  "medium": null,
-  "types": [
-   "owner"
-  ],
-  "dribbble": null
- }
+    {
+        "username": "lucasnaja",
+        "name": "Lucas Bittencourt",
+        "userimg": "https://avatars3.githubusercontent.com/u/13838273?v=4",
+        "sort": "star",
+        "order": "desc",
+        "includeFork": true,
+        "theme": "dark.css",
+        "types": [
+            "owner"
+        ],
+        "twitter": "lucasnaja0",
+        "linkedin": "lucas-bittencourt",
+        "medium": null,
+        "dribbble": null
+    }
 ]
