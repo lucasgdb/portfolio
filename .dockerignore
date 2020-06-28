@@ -1,0 +1,19 @@
+# Folders
+node_modules
+build
+@types
+
+# Files
+.gitignore
+.prettierrc
+tslint.json
+Dockerfile
+docker-compose*.yml
+*.log
+
+# Development environment
+.env.example
+.env.development
+.env.development.local
+.env.test
+.env.test.local
