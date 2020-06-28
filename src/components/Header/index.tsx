@@ -17,7 +17,7 @@ const Header = () => (
 				<Reveal animation={Animation.FadeInRight}>
 					<a
 						className="btn bg-danger text-white"
-						href="https://github.com/lucasgdb"
+						href="https://github.com/lucasgdb/lucasgdb.github.io"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -49,13 +49,17 @@ const Header = () => (
 				>
 					<li className="nav-item">
 						<a className="nav-item" href="#certificates">
-							<button className="btn text-white">Certificados</button>
+							<button className="btn text-white w-100">
+								Certificados
+							</button>
 						</a>
 					</li>
 
 					<li className="nav-item">
 						<a className="nav-item" href="#my-history">
-							<button className="btn text-white">Minha história</button>
+							<button className="btn text-white w-100">
+								Minha história
+							</button>
 						</a>
 					</li>
 				</Scrollspy>
