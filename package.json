@@ -21,6 +21,7 @@
 		"react-animations": "^1.0.0",
 		"react-back-to-top-button": "^0.0.14",
 		"react-dom": "^16.13.1",
+		"react-ga": "^3.0.0",
 		"react-genie": "^0.2.2",
 		"react-genie-styled-components": "^0.1.1",
 		"react-router-dom": "^5.2.0",
