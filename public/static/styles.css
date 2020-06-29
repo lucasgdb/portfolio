@@ -1,0 +1,24 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#root {
+	font-family: Roboto;
+}
+
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid #999;
+}
+
+.hover-up:hover {
+	bottom: 17px !important;
+	transition: bottom 0.3s;
+}
+
+.icon-hover-up:hover {
+	margin-top: -5px !important;
+	transition: margin-top 0.3s;
+}
