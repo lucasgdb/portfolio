@@ -72,7 +72,7 @@ const Footer = () => (
 				className="ml-2 icon-hover-up"
 				src={whatsAppIcon}
 				alt="WhatsApp"
-				width={33}
+				width={30}
 			/>
 		</a>
 	</div>
