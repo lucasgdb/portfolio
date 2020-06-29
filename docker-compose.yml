@@ -2,11 +2,8 @@ version: '3'
 
 services:
    web:
-      image: template/web
-      container_name: template_web
+      image: portfolio/web
+      container_name: portfolio_web
       build: .
       ports:
          - 80:80
-
-volumes:
-   template_data:

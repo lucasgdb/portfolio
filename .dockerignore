@@ -2,6 +2,7 @@
 node_modules
 build
 @types
+.vercel
 
 # Files
 .gitignore
@@ -9,6 +10,7 @@ build
 tslint.json
 Dockerfile
 docker-compose*.yml
+CNAME
 *.log
 
 # Development environment
