@@ -2,6 +2,7 @@ import React from 'react';
 import facebookIcon from '~/static/facebook.png';
 import linkedInIcon from '~/static/linkedin.png';
 import stackOverFlowIcon from '~/static/stackoverflow.png';
+import telegramIcon from '~/static/telegram.png';
 import whatsAppIcon from '~/static/whatsapp.png';
 import { GitHub } from '../Image';
 
@@ -64,6 +65,19 @@ const Footer = () => (
 				className="ml-2 icon-hover-up"
 				src={whatsAppIcon}
 				alt="WhatsApp"
+				width={30}
+			/>
+		</a>
+
+		<a
+			href="tg://resolve?domain=lucasgdb"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<img
+				className="ml-2 icon-hover-up"
+				src={telegramIcon}
+				alt="Telegram"
 				width={30}
 			/>
 		</a>
