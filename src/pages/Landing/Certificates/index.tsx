@@ -12,7 +12,7 @@ const Certificates = ({ showMore }: IProps) => (
 	<div id="certificates">
 		<Reveal animation={Animation.FadeInUp}>
 			<h1
-				className="text-center"
+				className="text-center text-dark underline position-relative"
 				style={{ marginTop: 100, marginBottom: 94 }}
 			>
 				<AnimatedTitle animation={Animation.FadeInUp}>

@@ -20,3 +20,23 @@ hr {
 	margin-top: -5px !important;
 	transition: margin-top 0.3s;
 }
+
+.underline:before {
+	content: '';
+	width: 100px;
+	height: 5px;
+	background-color: #343a40 !important;
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: width 0.3s;
+}
+
+.underline:hover:before {
+	width: 50px;
+}
+
+.underline-light:before {
+	background-color: #f8f9fa !important;
+}

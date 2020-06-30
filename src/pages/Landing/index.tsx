@@ -4,7 +4,8 @@ import Footer from '~/components/Footer';
 import Header from '~/components/Header';
 import { ArrowUp } from '~/components/Image';
 import Certificates from './Certificates';
-import MainScreen from './MainScreen';
+import Contact from './Contact';
+import MainScreen from './Introduction';
 import MyHistory from './MyHistory';
 import ShowMore from './ShowMore';
 
@@ -14,11 +15,8 @@ export default function Landing() {
 	return (
 		<>
 			<Header />
-
 			<MainScreen />
-
 			<Certificates showMore={showMore} />
-
 			<ShowMore showMore={showMore} setShowMore={setShowMore} />
 
 			<div className="container" style={{ marginTop: 100 }}>
@@ -27,6 +25,8 @@ export default function Landing() {
 
 			<MyHistory />
 
+			{/* <Technologies /> */}
+			<Contact />
 			<Footer />
 
 			<BackToTop showAt={100} speed={1000} easing="easeInOutQuint">

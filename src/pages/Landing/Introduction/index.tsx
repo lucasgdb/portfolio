@@ -3,7 +3,7 @@ import { AnimatedTitle, Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import { ArrowDown } from '~/components/Image';
 
-const MainScreen = () => (
+const Introduction = () => (
 	<div
 		className="bg-dark d-flex justify-content-center align-items-center position-relative"
 		style={{ height: '100vh' }}
@@ -28,4 +28,4 @@ const MainScreen = () => (
 	</div>
 );
 
-export default MainScreen;
+export default Introduction;
