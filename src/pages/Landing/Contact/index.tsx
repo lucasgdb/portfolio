@@ -33,51 +33,53 @@ const Contact = () => {
 
 			<form ref={form} onSubmit={handleOnSubmit}>
 				<div className="container mt-5">
-					<div className="mb-3">
-						<label htmlFor="name" className="form-label text-light">
-							Nome
-						</label>
+					<Reveal animation={Animation.FadeInRight}>
+						<div className="mb-3">
+							<label htmlFor="name" className="form-label text-light">
+								Nome
+							</label>
 
-						<input
-							type="text"
-							className="form-control"
-							id="name"
-							name="name"
-							placeholder="Ex: Lucas Bittencourt"
-							required
-						/>
-					</div>
+							<input
+								type="text"
+								className="form-control"
+								id="name"
+								name="name"
+								placeholder="Ex: Lucas Bittencourt"
+								required
+							/>
+						</div>
 
-					<div className="mb-3">
-						<label htmlFor="email" className="form-label text-light">
-							E-mail
-						</label>
+						<div className="mb-3">
+							<label htmlFor="email" className="form-label text-light">
+								E-mail
+							</label>
 
-						<input
-							type="email"
-							className="form-control"
-							id="email"
-							name="email"
-							placeholder="nome@exemplo.com"
-							required
-						/>
-					</div>
+							<input
+								type="email"
+								className="form-control"
+								id="email"
+								name="email"
+								placeholder="nome@exemplo.com"
+								required
+							/>
+						</div>
 
-					<div className="mb-3">
-						<label htmlFor="message" className="form-label text-light">
-							Mensagem
-						</label>
+						<div className="mb-3">
+							<label htmlFor="message" className="form-label text-light">
+								Mensagem
+							</label>
 
-						<textarea
-							className="form-control"
-							id="message"
-							name="message"
-							rows={3}
-							required
-						></textarea>
-					</div>
+							<textarea
+								className="form-control"
+								id="message"
+								name="message"
+								rows={3}
+								required
+							></textarea>
+						</div>
 
-					<button className="btn btn-danger">Enviar</button>
+						<button className="btn btn-danger">Enviar</button>
+					</Reveal>
 				</div>
 			</form>
 		</div>
