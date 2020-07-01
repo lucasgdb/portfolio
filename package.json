@@ -26,7 +26,6 @@
 		"react-genie-styled-components": "^0.1.1",
 		"react-router-dom": "^5.2.0",
 		"react-scrollspy": "^3.4.2",
-		"react-toastify": "^6.0.6",
 		"styled-components": "^5.1.1",
 		"vertical-timeline-component-for-react": "^1.0.7"
 	},
@@ -41,7 +40,6 @@
 		"@types/react-dom": "^16.9.8",
 		"@types/react-router-dom": "^5.1.5",
 		"@types/react-scrollspy": "^3.3.2",
-		"@types/react-toastify": "^4.1.0",
 		"babel-plugin-root-import": "^6.5.0",
 		"customize-cra": "^1.0.0",
 		"prettier": "^2.0.5",
