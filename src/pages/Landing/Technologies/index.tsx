@@ -5,11 +5,11 @@ import TechnologieContainer from '~/components/TechnologieContainer';
 
 const Technologies = () => {
 	return (
-		<div id="technologies" className="pt-4 pb-4">
+		<div id="technologies">
 			<Reveal animation={Animation.FadeInUp}>
 				<h1
 					className="text-center text-dark underline"
-					style={{ marginTop: 44, marginBottom: 100 }}
+					style={{ marginTop: 100, marginBottom: 100 }}
 				>
 					Tecnologias
 				</h1>

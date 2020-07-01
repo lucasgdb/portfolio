@@ -8,13 +8,13 @@ const MyHistory = () => (
 		<Reveal animation={Animation.FadeInUp}>
 			<h1
 				className="text-center text-dark underline"
-				style={{ marginTop: 100, marginBottom: 64 }}
+				style={{ marginTop: 100, marginBottom: 100 }}
 			>
 				Minha história
 			</h1>
 		</Reveal>
 
-		<Timeline lineColor={'#ddd'}>
+		<Timeline lineColor={'#ddd'} className="mt-0 mb-0">
 			<TimelineItem
 				dateText="10/02/2020 - Atualmente"
 				dateInnerStyle={{ background: '#dc3545' }}
