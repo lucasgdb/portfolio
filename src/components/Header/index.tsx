@@ -8,8 +8,17 @@ const Header = () => (
 	<nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark ">
 		<div className="container-fluid">
 			<Reveal animation={Animation.FadeInLeft}>
-				<Link className="navbar-brand text-white-50 ml-2" to="/">
-					Lucas Bittencourt
+				<Link
+					className="navbar-brand text-light ml-2 d-flex align-items-center"
+					to="/"
+				>
+					<img
+						src={`${process.env.PUBLIC_URL}/static/icon.png`}
+						alt="Lucas Bittencourt"
+						width={35}
+						className="mr-2"
+					/>
+					Bittencourt
 				</Link>
 			</Reveal>
 
