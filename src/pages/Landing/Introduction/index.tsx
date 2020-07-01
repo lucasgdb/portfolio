@@ -8,13 +8,13 @@ const Introduction = () => (
 		style={{ height: '100vh' }}
 	>
 		<Reveal animation={Animation.FadeInUp}>
-			<h1 className="text-white-50">
+			<h1 className="text-light">
 				<AnimatedTitle animation={Animation.FadeInUp}>
 					Lucas Bittencourt
 				</AnimatedTitle>
 			</h1>
 
-			<label className="text-danger">
+			<label className="text-danger font-weight-bold">
 				<AnimatedTitle animation={Animation.FadeInUp}>
 					Desenvolvedor full-stack
 				</AnimatedTitle>
