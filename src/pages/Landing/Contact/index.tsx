@@ -15,7 +15,6 @@ const Contact = () => {
 		event.preventDefault();
 
 		const currentForm = form.current;
-
 		const formData = new FormData(currentForm);
 
 		const name = formData.get('name');
@@ -116,11 +115,19 @@ const Contact = () => {
 						<Reveal animation={Animation.FadeInLeft}>
 							<div className="d-flex flex-column align-items-md-end">
 								<div className="d-flex align-items-center">
-									<img src={linkedInIcon} alt="LinkedIn" width={30} />{' '}
-									<h4 className="text-light mb-0 ml-2">LinkedIn</h4>
+									<img
+										className="order-md-2"
+										src={linkedInIcon}
+										alt="LinkedIn"
+										width={30}
+									/>{' '}
+									<h4 className="text-light mb-0 ml-2 mr-2 order-md-1">
+										LinkedIn
+									</h4>
 								</div>
 
 								<a
+									className="text-light"
 									href="https://linkedin.com/in/lucas-bittencourt"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -132,16 +139,18 @@ const Contact = () => {
 							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
 									<img
+										className="order-md-2"
 										src={stackOverFlowIcon}
 										alt="StackOverFlow"
 										width={30}
 									/>{' '}
-									<h4 className="text-light mb-0 ml-2">
+									<h4 className="text-light mb-0 ml-2 mr-2 order-md-1">
 										StackOverFlow
 									</h4>
 								</div>
 
 								<a
+									className="text-light"
 									href="https://pt.stackoverflow.com/users/93508/lucas-bittencourt"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -152,11 +161,19 @@ const Contact = () => {
 
 							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
-									<img src={githubIcon} alt="GitHub" width={30} />{' '}
-									<h4 className="text-light mb-0 ml-2">GitHub</h4>
+									<img
+										className="order-md-2"
+										src={githubIcon}
+										alt="GitHub"
+										width={30}
+									/>{' '}
+									<h4 className="text-light mb-0 ml-2 mr-2 order-md-1">
+										GitHub
+									</h4>
 								</div>
 
 								<a
+									className="text-light"
 									href="https://github.com/lucasgdb"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -167,11 +184,19 @@ const Contact = () => {
 
 							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
-									<img src={facebookIcon} alt="Facebook" width={30} />{' '}
-									<h4 className="text-light mb-0 ml-2">Facebook</h4>
+									<img
+										className="order-md-2"
+										src={facebookIcon}
+										alt="Facebook"
+										width={30}
+									/>{' '}
+									<h4 className="text-light mb-0 ml-2 mr-2 order-md-1">
+										Facebook
+									</h4>
 								</div>
 
 								<a
+									className="text-light"
 									href="https://www.facebook.com/lucasgdbittencourt"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -182,11 +207,19 @@ const Contact = () => {
 
 							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
-									<img src={whatsAppIcon} alt="WhatsApp" width={30} />{' '}
-									<h4 className="text-light mb-0 ml-2">WhatsApp</h4>
+									<img
+										className="order-md-2"
+										src={whatsAppIcon}
+										alt="WhatsApp"
+										width={30}
+									/>{' '}
+									<h4 className="text-light mb-0 ml-2 mr-2 order-md-1">
+										WhatsApp
+									</h4>
 								</div>
 
 								<a
+									className="text-light"
 									href="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -197,11 +230,19 @@ const Contact = () => {
 
 							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
-									<img src={telegramIcon} alt="Telegram" width={30} />{' '}
-									<h4 className="text-light mb-0 ml-2">Telegram</h4>
+									<img
+										className="order-md-2"
+										src={telegramIcon}
+										alt="Telegram"
+										width={30}
+									/>{' '}
+									<h4 className="text-light mb-0 ml-2 mr-2 order-md-1">
+										Telegram
+									</h4>
 								</div>
 
 								<a
+									className="text-light"
 									href="tg://resolve?domain=lucasgdb"
 									target="_blank"
 									rel="noopener noreferrer"
