@@ -47,7 +47,7 @@ const Contact = () => {
 				<div className="row">
 					<div className="col-12 col-md-6 mt-4 order-md-2">
 						<form ref={form} onSubmit={handleOnSubmit}>
-							<Reveal animation={Animation.FadeInRight}>
+							<Reveal animation={Animation.FadeInLeft}>
 								<div className="mb-3">
 									<label
 										htmlFor="name"
@@ -107,99 +107,103 @@ const Contact = () => {
 					</div>
 
 					<div className="col-12 col-md-6 mt-4 order-md-1">
-						<div>
-							<div className="d-flex align-items-center">
-								<img src={linkedInIcon} alt="LinkedIn" width={30} />{' '}
-								<h4 className="text-light mb-0 ml-2">LinkedIn</h4>
+						<Reveal animation={Animation.FadeInRight}>
+							<div>
+								<div className="d-flex align-items-center">
+									<img src={linkedInIcon} alt="LinkedIn" width={30} />{' '}
+									<h4 className="text-light mb-0 ml-2">LinkedIn</h4>
+								</div>
+
+								<a
+									href="https://linkedin.com/in/lucas-bittencourt"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									/in/lucas-bittencourt
+								</a>
 							</div>
 
-							<a
-								href="https://linkedin.com/in/lucas-bittencourt"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								/in/lucas-bittencourt
-							</a>
-						</div>
+							<div className="mt-3">
+								<div className="d-flex align-items-center">
+									<img
+										src={stackOverFlowIcon}
+										alt="StackOverFlow"
+										width={30}
+									/>{' '}
+									<h4 className="text-light mb-0 ml-2">
+										StackOverFlow
+									</h4>
+								</div>
 
-						<div className="mt-3">
-							<div className="d-flex align-items-center">
-								<img
-									src={stackOverFlowIcon}
-									alt="StackOverFlow"
-									width={30}
-								/>{' '}
-								<h4 className="text-light mb-0 ml-2">StackOverFlow</h4>
+								<a
+									href="https://pt.stackoverflow.com/users/93508/lucas-bittencourt"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									/lucas-bittencourt
+								</a>
 							</div>
 
-							<a
-								href="https://pt.stackoverflow.com/users/93508/lucas-bittencourt"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								/lucas-bittencourt
-							</a>
-						</div>
+							<div className="mt-3">
+								<div className="d-flex align-items-center">
+									<img src={githubIcon} alt="GitHub" width={30} />{' '}
+									<h4 className="text-light mb-0 ml-2">GitHub</h4>
+								</div>
 
-						<div className="mt-3">
-							<div className="d-flex align-items-center">
-								<img src={githubIcon} alt="GitHub" width={30} />{' '}
-								<h4 className="text-light mb-0 ml-2">GitHub</h4>
+								<a
+									href="https://github.com/lucasgdb"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									/lucasgdb
+								</a>
 							</div>
 
-							<a
-								href="https://github.com/lucasgdb"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								/lucasgdb
-							</a>
-						</div>
+							<div className="mt-3">
+								<div className="d-flex align-items-center">
+									<img src={facebookIcon} alt="Facebook" width={30} />{' '}
+									<h4 className="text-light mb-0 ml-2">Facebook</h4>
+								</div>
 
-						<div className="mt-3">
-							<div className="d-flex align-items-center">
-								<img src={facebookIcon} alt="Facebook" width={30} />{' '}
-								<h4 className="text-light mb-0 ml-2">Facebook</h4>
+								<a
+									href="https://www.facebook.com/lucasgdbittencourt"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									/lucasgdbittencourt
+								</a>
 							</div>
 
-							<a
-								href="https://www.facebook.com/lucasgdbittencourt"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								/lucasgdbittencourt
-							</a>
-						</div>
+							<div className="mt-3">
+								<div className="d-flex align-items-center">
+									<img src={whatsAppIcon} alt="WhatsApp" width={30} />{' '}
+									<h4 className="text-light mb-0 ml-2">WhatsApp</h4>
+								</div>
 
-						<div className="mt-3">
-							<div className="d-flex align-items-center">
-								<img src={whatsAppIcon} alt="WhatsApp" width={30} />{' '}
-								<h4 className="text-light mb-0 ml-2">WhatsApp</h4>
+								<a
+									href="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									+55 (12) 98834-4336
+								</a>
 							</div>
 
-							<a
-								href="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								+55 (12) 98834-4336
-							</a>
-						</div>
+							<div className="mt-3">
+								<div className="d-flex align-items-center">
+									<img src={telegramIcon} alt="Telegram" width={30} />{' '}
+									<h4 className="text-light mb-0 ml-2">Telegram</h4>
+								</div>
 
-						<div className="mt-3">
-							<div className="d-flex align-items-center">
-								<img src={telegramIcon} alt="Telegram" width={30} />{' '}
-								<h4 className="text-light mb-0 ml-2">Telegram</h4>
+								<a
+									href="tg://resolve?domain=lucasgdb"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									@lucasgdb
+								</a>
 							</div>
-
-							<a
-								href="tg://resolve?domain=lucasgdb"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								@lucasgdb
-							</a>
-						</div>
+						</Reveal>
 					</div>
 				</div>
 			</div>

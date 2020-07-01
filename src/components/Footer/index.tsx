@@ -15,7 +15,7 @@ const Footer = () => {
 	);
 
 	useEffect(() => {
-		setShow(st >= 38);
+		setShow(st >= 30.27);
 	}, [st]);
 
 	useEffect(() => {
