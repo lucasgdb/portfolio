@@ -11,11 +11,6 @@ body {
 	font-family: Roboto;
 }
 
-.hover-up:hover {
-	bottom: 17px !important;
-	transition: bottom 0.3s;
-}
-
 .icon-hover-up:hover {
 	margin-top: -5px !important;
 	transition: margin-top 0.3s;
@@ -60,5 +55,32 @@ body {
 @media (min-width: 768px) {
 	.border-md-left {
 		border-left: 1px solid #999;
+	}
+}
+
+.up-down-effect {
+	animation: up-down 2s infinite;
+	animation-fill-mode: backwards;
+}
+
+@keyframes up-down {
+	0% {
+		bottom: 10px;
+	}
+
+	25% {
+		bottom: 40px;
+	}
+
+	50% {
+		bottom: 10px;
+	}
+
+	75% {
+		bottom: 40px;
+	}
+
+	100% {
+		bottom: 10px;
 	}
 }
