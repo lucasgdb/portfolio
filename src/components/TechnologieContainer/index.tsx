@@ -1,11 +1,11 @@
 import React from 'react';
 import { Reveal } from 'react-genie';
-import { Animation } from 'react-genie-styled-components';
 
 interface IProps {
 	title: string;
 	subTitle: string;
 	technologies: ITechnologie[];
+	reveal: string;
 }
 
 interface ITechnologie {
@@ -13,10 +13,15 @@ interface ITechnologie {
 	value: number;
 }
 
-const TechnologieContainer = ({ title, subTitle, technologies }: IProps) => {
+const TechnologieContainer = ({
+	title,
+	subTitle,
+	technologies,
+	reveal,
+}: IProps) => {
 	return (
 		<Reveal
-			animation={Animation.FadeInLeft}
+			animation={reveal}
 			style={{ margin: 10, width: '100%', maxWidth: '22rem' }}
 		>
 			<div
@@ -29,10 +34,7 @@ const TechnologieContainer = ({ title, subTitle, technologies }: IProps) => {
 					<div className="card-text">
 						{technologies.map((technologie, index) => (
 							<React.Fragment key={index}>
-								<p
-									key={index}
-									className="mt-3 mb-1 text-dark"
-								>
+								<p key={index} className="mt-3 mb-1 text-dark">
 									{technologie.name}
 								</p>
 

@@ -50,3 +50,15 @@ body {
 		margin-top: 10px;
 	}
 }
+
+@media (max-width: 767px) {
+	.contact-form-mobile {
+		max-width: unset !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.border-md-left {
+		border-left: 1px solid #999;
+	}
+}

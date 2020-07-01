@@ -30,8 +30,8 @@ const Contact = () => {
 	return (
 		<div
 			id="contact"
-			className="bg-dark pt-5 pb-5"
-			style={{ marginTop: 100 }}
+			className="bg-dark pb-5"
+			style={{ marginTop: 100, paddingTop: 50 }}
 		>
 			<Reveal animation={Animation.FadeInUp}>
 				<h1 className="text-center text-light underline underline-light mb-4">
@@ -45,8 +45,13 @@ const Contact = () => {
 
 			<div className="container mb-4">
 				<div className="row">
-					<div className="col-12 col-md-6 mt-4 order-md-2">
-						<form ref={form} onSubmit={handleOnSubmit}>
+					<div className="col-12 col-md-6 mt-4 order-md-2 border-md-left">
+						<form
+							ref={form}
+							onSubmit={handleOnSubmit}
+							className="contact-form-mobile"
+							style={{ maxWidth: 350 }}
+						>
 							<Reveal animation={Animation.FadeInRight}>
 								<div className="mb-3">
 									<label
@@ -94,6 +99,7 @@ const Contact = () => {
 
 									<textarea
 										className="form-control"
+										placeholder="Oi, Lucas!"
 										id="message"
 										name="message"
 										rows={3}
@@ -101,14 +107,14 @@ const Contact = () => {
 									></textarea>
 								</div>
 
-								<button className="btn btn-danger">Enviar</button>
+								<button className="btn btn-danger w-100">Enviar</button>
 							</Reveal>
 						</form>
 					</div>
 
 					<div className="col-12 col-md-6 mt-4 order-md-1">
 						<Reveal animation={Animation.FadeInLeft}>
-							<div>
+							<div className="d-flex flex-column align-items-md-end">
 								<div className="d-flex align-items-center">
 									<img src={linkedInIcon} alt="LinkedIn" width={30} />{' '}
 									<h4 className="text-light mb-0 ml-2">LinkedIn</h4>
@@ -123,7 +129,7 @@ const Contact = () => {
 								</a>
 							</div>
 
-							<div className="mt-3">
+							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
 									<img
 										src={stackOverFlowIcon}
@@ -144,7 +150,7 @@ const Contact = () => {
 								</a>
 							</div>
 
-							<div className="mt-3">
+							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
 									<img src={githubIcon} alt="GitHub" width={30} />{' '}
 									<h4 className="text-light mb-0 ml-2">GitHub</h4>
@@ -159,7 +165,7 @@ const Contact = () => {
 								</a>
 							</div>
 
-							<div className="mt-3">
+							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
 									<img src={facebookIcon} alt="Facebook" width={30} />{' '}
 									<h4 className="text-light mb-0 ml-2">Facebook</h4>
@@ -174,7 +180,7 @@ const Contact = () => {
 								</a>
 							</div>
 
-							<div className="mt-3">
+							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
 									<img src={whatsAppIcon} alt="WhatsApp" width={30} />{' '}
 									<h4 className="text-light mb-0 ml-2">WhatsApp</h4>
@@ -189,7 +195,7 @@ const Contact = () => {
 								</a>
 							</div>
 
-							<div className="mt-3">
+							<div className="d-flex flex-column align-items-md-end mt-3">
 								<div className="d-flex align-items-center">
 									<img src={telegramIcon} alt="Telegram" width={30} />{' '}
 									<h4 className="text-light mb-0 ml-2">Telegram</h4>

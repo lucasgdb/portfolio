@@ -29,6 +29,7 @@ const Technologies = () => {
 						{ name: 'Material UI', value: 95 },
 						{ name: 'Linux', value: 85 },
 					]}
+					reveal={Animation.FadeInLeft}
 				/>
 
 				<TechnologieContainer
@@ -41,6 +42,7 @@ const Technologies = () => {
 						{ name: 'C#', value: 50 },
 						{ name: 'Java', value: 50 },
 					]}
+					reveal={Animation.FadeInRight}
 				/>
 			</div>
 		</div>
