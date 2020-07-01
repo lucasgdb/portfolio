@@ -28,7 +28,7 @@ const Footer = () => {
 
 	return show ? (
 		<nav className="navbar fixed-bottom navbar-light bg-dark d-flex justify-content-center p-1">
-			<Reveal animation={Animation.FadeInLeft}>
+			<Reveal animation={Animation.FadeInRight}>
 				<a
 					href="https://linkedin.com/in/lucas-bittencourt"
 					target="_blank"

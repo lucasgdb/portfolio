@@ -47,7 +47,7 @@ const Contact = () => {
 				<div className="row">
 					<div className="col-12 col-md-6 mt-4 order-md-2">
 						<form ref={form} onSubmit={handleOnSubmit}>
-							<Reveal animation={Animation.FadeInLeft}>
+							<Reveal animation={Animation.FadeInRight}>
 								<div className="mb-3">
 									<label
 										htmlFor="name"
@@ -107,7 +107,7 @@ const Contact = () => {
 					</div>
 
 					<div className="col-12 col-md-6 mt-4 order-md-1">
-						<Reveal animation={Animation.FadeInRight}>
+						<Reveal animation={Animation.FadeInLeft}>
 							<div>
 								<div className="d-flex align-items-center">
 									<img src={linkedInIcon} alt="LinkedIn" width={30} />{' '}
