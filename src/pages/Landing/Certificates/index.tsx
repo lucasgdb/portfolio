@@ -12,10 +12,10 @@ const Certificates = ({ showMore }: IProps) => (
 	<div id="certificates">
 		<Reveal animation={Animation.FadeInUp}>
 			<h1
-				className="text-center text-dark underline position-relative"
+				className="text-center text-dark underline"
 				style={{ marginTop: 100, marginBottom: 94 }}
 			>
-				<AnimatedTitle animation={Animation.FadeInUp}>
+				<AnimatedTitle animation={Animation.FadeIn}>
 					Certificados
 				</AnimatedTitle>
 			</h1>
@@ -23,7 +23,7 @@ const Certificates = ({ showMore }: IProps) => (
 
 		<div className="d-flex justify-content-center align-items-stretch flex-wrap">
 			<Certificate
-				title="HTTP"
+				title="HTTP - Fundamentos"
 				subTitle="Alura 09/2019"
 				url="https://cursos.alura.com.br/certificate/1cf36134-cecd-4386-8f48-b3c7eb725bd6"
 			>
@@ -68,14 +68,6 @@ const Certificates = ({ showMore }: IProps) => (
 				url="https://drive.google.com/file/d/11nR3Nu1REhJ5_oLVfGo12YBQ_KuopCdr/view?usp=sharing"
 			>
 				Começando a entender o JavaScript ES5.
-			</Certificate>
-
-			<Certificate
-				title="HTML5 e CSS3"
-				subTitle="TreinaWeb 08/2018"
-				url="https://drive.google.com/file/d/1_7aj48Ho_7ZEcgyCicNGc5fvy9RSpScc/view?usp=sharing"
-			>
-				Curso de HTML5 e CSS3 Básico.
 			</Certificate>
 
 			<Certificate

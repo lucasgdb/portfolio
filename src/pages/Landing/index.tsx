@@ -8,6 +8,7 @@ import Contact from './Contact';
 import MainScreen from './Introduction';
 import MyHistory from './MyHistory';
 import ShowMore from './ShowMore';
+import Technologies from './Technologies';
 
 export default function Landing() {
 	const [showMore, setShowMore] = useState(false);
@@ -15,18 +16,20 @@ export default function Landing() {
 	return (
 		<>
 			<Header />
+
 			<MainScreen />
+
 			<Certificates showMore={showMore} />
 			<ShowMore showMore={showMore} setShowMore={setShowMore} />
 
-			<div className="container" style={{ marginTop: 100 }}>
-				<hr />
-			</div>
-
 			<MyHistory />
 
-			{/* <Technologies /> */}
+			<Technologies />
+
+			{/* <Projects /> */}
+
 			<Contact />
+
 			<Footer />
 
 			<BackToTop showAt={100} speed={1000} easing="easeInOutQuint">

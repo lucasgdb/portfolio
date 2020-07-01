@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnimatedTitle, Reveal } from 'react-genie';
+import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
@@ -7,12 +7,10 @@ const MyHistory = () => (
 	<div id="my-history">
 		<Reveal animation={Animation.FadeInUp}>
 			<h1
-				className="text-center text-dark underline position-relative"
-				style={{ marginTop: 100, marginBottom: 44 }}
+				className="text-center text-dark underline"
+				style={{ marginTop: 100, marginBottom: 64 }}
 			>
-				<AnimatedTitle animation={Animation.FadeInUp}>
-					Minha história
-				</AnimatedTitle>
+				Minha história
 			</h1>
 		</Reveal>
 

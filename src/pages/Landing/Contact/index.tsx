@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { AnimatedTitle, Reveal } from 'react-genie';
+import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 
 const Contact = () => {
@@ -17,18 +17,24 @@ const Contact = () => {
 		const message = formData.get('message');
 
 		window.open(
-			`https://mail.google.com/mail/u/0/?view=cm&tf=1&su=Portfólio&to=lucasgdbittencourt@gmail.com&body=${name}, ${email}, ${message}`
+			`https://mail.google.com/mail/u/0/?view=cm&tf=1&su=${name} - ${email}, PORTFÓLIO&to=lucasgdbittencourt@gmail.com&body=${message}`
 		);
 	};
 
 	return (
-		<div id="contact" className="bg-dark pt-5 pb-5">
+		<div
+			id="contact"
+			className="bg-dark pt-5 pb-5"
+			style={{ marginTop: 100 }}
+		>
 			<Reveal animation={Animation.FadeInUp}>
-				<h1 className="text-center text-light underline underline-light position-relative">
-					<AnimatedTitle animation={Animation.FadeInUp}>
-						Contato
-					</AnimatedTitle>
+				<h1 className="text-center text-light underline underline-light mb-4">
+					Contato
 				</h1>
+
+				<p className="text-center text-white-50">
+					Entre em contato comigo de forma rápida!
+				</p>
 			</Reveal>
 
 			<form ref={form} onSubmit={handleOnSubmit}>

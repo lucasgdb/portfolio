@@ -43,7 +43,7 @@ const Header = () => (
 				id="navbarToggler"
 			>
 				<Scrollspy
-					items={['certificates', 'my-history', 'contact']}
+					items={['certificates', 'my-history', 'technologies', 'contact']}
 					className="navbar-nav mr-auto mb-2 mb-lg-0"
 					currentClassName="bg-danger"
 				>
@@ -59,6 +59,14 @@ const Header = () => (
 						<a className="nav-item" href="#my-history">
 							<button className="btn text-white w-100">
 								Minha história
+							</button>
+						</a>
+					</li>
+
+					<li className="nav-item">
+						<a className="nav-item" href="#technologies">
+							<button className="btn text-white w-100">
+								Tecnologias
 							</button>
 						</a>
 					</li>

@@ -6,11 +6,6 @@ html {
 	font-family: Roboto;
 }
 
-hr {
-	border: 0;
-	border-top: 1px solid #999;
-}
-
 .hover-up:hover {
 	bottom: 17px !important;
 	transition: bottom 0.3s;
@@ -19,6 +14,10 @@ hr {
 .icon-hover-up:hover {
 	margin-top: -5px !important;
 	transition: margin-top 0.3s;
+}
+
+.underline {
+	position: relative;
 }
 
 .underline:before {
@@ -39,4 +38,10 @@ hr {
 
 .underline-light:before {
 	background-color: #f8f9fa !important;
+}
+
+@media (max-width: 991px) {
+	.navbar-collapse {
+		margin-top: 10px;
+	}
 }

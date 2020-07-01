@@ -4,6 +4,14 @@ import Certificate from '~/components/Certificate';
 const MoreCertificates = () => (
 	<>
 		<Certificate
+			title="HTML5 e CSS3"
+			subTitle="TreinaWeb 08/2018"
+			url="https://drive.google.com/file/d/1_7aj48Ho_7ZEcgyCicNGc5fvy9RSpScc/view?usp=sharing"
+		>
+			Curso de HTML5 e CSS3 Básico.
+		</Certificate>
+
+		<Certificate
 			title="Começando com Angular"
 			subTitle="balta.io 06/2020"
 			url="https://certificates.balta.io/NWVlODMyZTU2NjY2NTgxYmRjYjYwNzkzLDVjNmIyY2MyZTcxNzlhMjdlYjYyYmFlMA=="
