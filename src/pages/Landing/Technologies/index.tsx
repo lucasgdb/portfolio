@@ -21,8 +21,9 @@ const Technologies = () => {
 					subTitle="Mais populares"
 					technologies={[
 						{ name: 'GitHub', value: 100 },
-						{ name: 'Docker', value: 80 },
-						{ name: 'TypeScript', value: 60 },
+						{ name: 'Git', value: 92 },
+						{ name: 'Docker', value: 83 },
+						{ name: 'TypeScript', value: 74 },
 						{ name: 'React.js', value: 85 },
 						{ name: 'Node.js', value: 80 },
 						{ name: 'Bootstrap', value: 90 },
