@@ -26,11 +26,11 @@ const Header = () => (
 				<Reveal animation={Animation.FadeInRight}>
 					<a
 						className="btn bg-danger text-white"
-						href="https://github.com/lucasgdb/lucasgdb.github.io"
+						href="./static/curriculum.pdf"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						GitHub
+						Currículo
 					</a>
 
 					<button
