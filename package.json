@@ -2,6 +2,8 @@
 	"name": "@portfolio/web",
 	"version": "1.0.0",
 	"private": false,
+	"author": "Lucas Bittencourt <lucasgdbittencourt@gmail.com>",
+	"repository": "lucasgdb/lucasgdb.github.io",
 	"license": "MIT",
 	"jest": {
 		"moduleNameMapper": {
