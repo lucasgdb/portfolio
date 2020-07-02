@@ -3,14 +3,14 @@ import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
-const MyHistory = () => (
-	<div id="my-history">
+const MyTimeLine = () => (
+	<div id="my-timeline">
 		<Reveal animation={Animation.FadeInUp}>
 			<h1
 				className="text-center text-dark underline"
 				style={{ marginTop: 100, marginBottom: 100 }}
 			>
-				Minha história
+				Linha do tempo
 			</h1>
 		</Reveal>
 
@@ -94,4 +94,4 @@ const MyHistory = () => (
 	</div>
 );
 
-export default MyHistory;
+export default MyTimeLine;

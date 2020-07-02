@@ -5,7 +5,7 @@ import Header from '~/components/Header';
 import Certificates from './Certificates';
 import Contact from './Contact';
 import MainScreen from './Introduction';
-import MyHistory from './MyHistory';
+import MyTimeLine from './MyTimeLine';
 import ShowMore from './ShowMore';
 import Technologies from './Technologies';
 
@@ -21,7 +21,7 @@ export default function Landing() {
 			<Certificates showMore={showMore} />
 			<ShowMore showMore={showMore} setShowMore={setShowMore} />
 
-			<MyHistory />
+			<MyTimeLine />
 
 			<Technologies />
 
