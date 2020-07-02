@@ -3,6 +3,8 @@ node_modules
 build
 @types
 .vercel
+.github
+.vscode
 
 # Files
 .gitignore
