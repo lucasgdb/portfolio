@@ -38,8 +38,10 @@
 ## :whale: Usando Docker
 
 -  Digite `docker build -t portfolio/web .`
--  Digite `docker-compose up -d` ou `docker-compose up --build -d`
+-  Digite `docker-compose up -d` ou `docker container run --name portfolio_web -p 80:80 portfolio/web`
 -  Acesse `localhost` no navegador.
+-  Digite `docker container stop portfolio_web` para parar o container.
+-  Digite `docker container start portfolio_web` para iniciar o container.
 
 ## :hand: Autor
 
