@@ -53,8 +53,8 @@ const Header = () => (
 			>
 				<Scrollspy
 					items={[
-						'certificates',
 						'my-timeline',
+						'certificates',
 						'technologies',
 						'contact',
 					]}
@@ -62,17 +62,17 @@ const Header = () => (
 					currentClassName="bg-danger"
 				>
 					<li className="nav-item">
-						<a className="nav-item" href="#certificates">
+						<a className="nav-item" href="#my-timeline">
 							<button className="btn text-white w-100">
-								Certificados
+								Linha do tempo
 							</button>
 						</a>
 					</li>
 
 					<li className="nav-item">
-						<a className="nav-item" href="#my-timeline">
+						<a className="nav-item" href="#certificates">
 							<button className="btn text-white w-100">
-								Linha do tempo
+								Certificados
 							</button>
 						</a>
 					</li>

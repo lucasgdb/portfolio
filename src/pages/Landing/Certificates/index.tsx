@@ -3,12 +3,14 @@ import { AnimatedTitle, Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import Certificate from '~/components/Certificate';
 import MoreCertificates from './MoreCertificates';
+import ShowMore from './ShowMore';
 
 interface IProps {
 	showMore: boolean;
+	setShowMore: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const Certificates = ({ showMore }: IProps) => (
+const Certificates = ({ showMore, setShowMore }: IProps) => (
 	<div id="certificates">
 		<Reveal animation={Animation.FadeInUp}>
 			<h1
@@ -80,6 +82,8 @@ const Certificates = ({ showMore }: IProps) => (
 
 			{showMore && <MoreCertificates />}
 		</div>
+
+		<ShowMore showMore={showMore} setShowMore={setShowMore} />
 	</div>
 );
 

@@ -40,16 +40,18 @@ const MyTimeLine = () => (
 					>
 						Tô Aqui
 					</a>
-					, KingX Automation e LIAX Opportunity Management.
+					, Vacation Manager, KingX Automation e LIAX Opportunity
+					Management.
 				</p>
 
-				<span className="badge bg-success p-2">Estágio</span>
-				<span className="badge bg-primary p-2 ml-1">Primeiro emprego</span>
+				<span className="badge bg-success p-2">Primeiro emprego</span>
+				<span className="badge bg-primary p-2 ml-1">Estágio</span>
 			</TimelineItem>
 
 			<TimelineItem
 				dateText="26/01/2019 - Atualmente"
-				dateInnerStyle={{ background: '#aaa' }}
+				dateInnerStyle={{ background: '#dc3545' }}
+				style={{ color: '#dc3545' }}
 			>
 				<h3>Fatec Guaratinguetá</h3>
 				<h4 className="text-black-50">
@@ -72,8 +74,8 @@ const MyTimeLine = () => (
 
 			<TimelineItem
 				dateText="24/07/2018 - Concluído"
-				style={{ color: '#76bb7f' }}
-				dateInnerStyle={{ background: '#76bb7f' }}
+				style={{ color: '#0F9D58' }}
+				dateInnerStyle={{ background: '#0F9D58' }}
 			>
 				<h3>Etec Guaratinguetá</h3>
 				<h4 className="text-black-50">Desenvolvimento de Sistemas</h4>
