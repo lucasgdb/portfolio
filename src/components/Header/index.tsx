@@ -26,7 +26,7 @@ const Header = () => (
 				<Reveal animation={Animation.FadeInRight}>
 					<a
 						className="btn bg-danger text-white"
-						href="./static/curriculum.pdf"
+						href="./static/Resume.pdf"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
