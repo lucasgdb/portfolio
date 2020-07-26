@@ -21,7 +21,7 @@ const Introduction = () => (
 			</label>
 		</Reveal>
 
-		<a href="#certificates">
+		<a href="#my-timeline">
 			<svg
 				width="40"
 				height="40"
