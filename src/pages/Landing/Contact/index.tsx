@@ -14,15 +14,13 @@ const Contact = () => {
 	const handleOnSubmit = (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
 
-		const currentForm = form.current;
-		const formData = new FormData(currentForm);
-
+		const formData = new FormData(form.current);
 		const name = formData.get('name');
-		const email = formData.get('email');
+		const title = formData.get('title');
 		const message = formData.get('message');
 
 		window.open(
-			`https://mail.google.com/mail/u/0/?view=cm&tf=1&su=${name} - ${email}, PORTFÓLIO&to=lucasgdbittencourt@gmail.com&body=${message}`
+			`https://mail.google.com/mail/u/0/?view=cm&tf=1&su=${title} - ${name}&to=lucasgdbittencourt@gmail.com&body=${message}`
 		);
 	};
 
@@ -72,18 +70,18 @@ const Contact = () => {
 
 								<div className="mb-3">
 									<label
-										htmlFor="email"
+										htmlFor="title"
 										className="form-label text-light"
 									>
-										E-mail
+										Título
 									</label>
 
 									<input
-										type="email"
+										type="text"
 										className="form-control"
-										id="email"
-										name="email"
-										placeholder="nome@exemplo.com"
+										id="title"
+										name="title"
+										placeholder="Ex: Dúvidas sobre você"
 										required
 									/>
 								</div>

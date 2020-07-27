@@ -23,7 +23,7 @@ const Certificates = ({ showMore, setShowMore }: IProps) => (
 			</h1>
 		</Reveal>
 
-		<div className="d-flex justify-content-center align-items-stretch flex-wrap">
+		<div className="d-flex justify-content-center flex-wrap">
 			<Certificate
 				title="HTTP - Fundamentos"
 				subTitle="Alura 09/2019"
