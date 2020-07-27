@@ -16,9 +16,33 @@ const MyTimeLine = () => (
 
 		<Timeline lineColor={'#ddd'} className="mt-0 mb-0">
 			<TimelineItem
-				dateText="10/02/2020 - Atualmente"
+				dateText="05/08/2020 - Atualmente"
 				dateInnerStyle={{ background: '#dc3545' }}
+				dateStyle={{ minWidth: 250 }}
 				style={{ color: '#dc3545' }}
+			>
+				<h3>Ênfase Labs</h3>
+				<h4 className="text-black-50">Engenheiro de Software Full Stack</h4>
+
+				<p className="mt-4">
+					Ênfase Labs é Líder na área de concursos jurídicos federais.
+					Nosso foco é no desenvolvimento de plataformas e serviços que
+					otimizem a aprendizagem dos nossos alunos.
+				</p>
+				<p>
+					Lá trabalhamos com várias tecnologias, como React.js, Node.js,
+					Relay, GraphQL, MongoDB, Docker, Python, AWS, entre outras.
+				</p>
+
+				<span className="badge bg-primary p-2">CLT</span>
+				<span className="badge bg-primary p-2 ml-1">Remoto</span>
+			</TimelineItem>
+
+			<TimelineItem
+				dateText="10/02/2020 - 05/08/2020"
+				dateInnerStyle={{ background: '#0F9D58' }}
+				dateStyle={{ minWidth: 250 }}
+				style={{ color: '#0F9D58' }}
 			>
 				<h3>LIAX Tecnologia</h3>
 				<h4 className="text-black-50">Estagiário Desenvolvedor</h4>
@@ -44,13 +68,13 @@ const MyTimeLine = () => (
 					Management.
 				</p>
 
-				<span className="badge bg-success p-2">Primeiro emprego</span>
-				<span className="badge bg-primary p-2 ml-1">Estágio</span>
+				<span className="badge bg-primary p-2">Estágio</span>
 			</TimelineItem>
 
 			<TimelineItem
 				dateText="26/01/2019 - Atualmente"
 				dateInnerStyle={{ background: '#dc3545' }}
+				dateStyle={{ minWidth: 250 }}
 				style={{ color: '#dc3545' }}
 			>
 				<h3>Fatec Guaratinguetá</h3>
@@ -68,13 +92,14 @@ const MyTimeLine = () => (
 					Programação.
 				</p>
 
-				<span className="badge bg-success p-2">Faculdade</span>
-				<span className="badge bg-primary p-2 ml-1">Tecnólogo</span>
+				<span className="badge bg-primary p-2">Tecnólogo</span>
+				<span className="badge bg-success p-2 ml-1">Faculdade</span>
 			</TimelineItem>
 
 			<TimelineItem
-				dateText="24/07/2018 - Concluído"
+				dateText="24/07/2018 - 06/12/2019"
 				style={{ color: '#0F9D58' }}
+				dateStyle={{ minWidth: 250 }}
 				dateInnerStyle={{ background: '#0F9D58' }}
 			>
 				<h3>Etec Guaratinguetá</h3>
@@ -91,6 +116,7 @@ const MyTimeLine = () => (
 				</p>
 
 				<span className="badge bg-primary p-2">Técnico</span>
+				<span className="badge bg-success p-2 ml-1">Escola Técnica</span>
 			</TimelineItem>
 		</Timeline>
 	</div>

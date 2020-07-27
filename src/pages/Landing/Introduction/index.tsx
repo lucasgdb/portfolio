@@ -16,7 +16,7 @@ const Introduction = () => (
 
 			<label className="text-danger font-weight-bold">
 				<AnimatedTitle animation={Animation.FadeInUp}>
-					Desenvolvedor full-stack
+					Desenvolvedor JavaScript
 				</AnimatedTitle>
 			</label>
 		</Reveal>
