@@ -60,14 +60,6 @@ const MoreCertificates = () => (
 		</Certificate>
 
 		<Certificate
-			title="HTML5 e CSS3"
-			subTitle="Curso em Vídeo 01/2019"
-			url="https://drive.google.com/file/d/1SZjCqoNMD5ZHcKOu6QGJsOoZkwM_bJby/view?usp=sharing"
-		>
-			Curso básico de HTML5 e CSS3 do Curso em Vídeo (Gustavo Guanabara)
-		</Certificate>
-
-		<Certificate
 			title="PHP Básico"
 			subTitle="Curso em Vídeo 03/2019"
 			url="https://drive.google.com/file/d/1Fbo22zHbdynKY1FlUiuIEs7rXddm_8Qu/view?usp=sharing"
