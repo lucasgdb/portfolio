@@ -41,43 +41,11 @@ const Certificates = ({ showMore, setShowMore }: IProps) => (
 			</Certificate>
 
 			<Certificate
-				title="JavaScript ES6"
-				subTitle="TreinaWeb 01/2019"
-				url="https://drive.google.com/file/d/1nbWhwygwMXWRorjpKqb7H7ov28SxCxoA/view?usp=sharing"
-			>
-				Novidades do EcmaScript 2015 (ES6) do JavaScript.
-			</Certificate>
-
-			<Certificate
 				title="JavaScript Avançado"
 				subTitle="TreinaWeb 10/2018"
 				url="https://drive.google.com/file/d/1MdGWb8yFg2saHjUn4Y0pBwTcdGmGiABF/view?usp=sharing"
 			>
 				Entendendo mais a fundo o JavaScript ES5.
-			</Certificate>
-
-			<Certificate
-				title="JavaScript Intermediário"
-				subTitle="TreinaWeb 09/2018"
-				url="https://drive.google.com/file/d/1NZkuNnOxn8YUagqlel1TfuspOEmgib0O/view?usp=sharing"
-			>
-				Entendendo melhor o JavaScript ES5.
-			</Certificate>
-
-			<Certificate
-				title="JavaScript Básico"
-				subTitle="TreinaWeb 08/2018"
-				url="https://drive.google.com/file/d/11nR3Nu1REhJ5_oLVfGo12YBQ_KuopCdr/view?usp=sharing"
-			>
-				Começando a entender o JavaScript ES5.
-			</Certificate>
-
-			<Certificate
-				title="HTML5 e CSS3"
-				subTitle="TreinaWeb 08/2018"
-				url="https://drive.google.com/file/d/1_SWQS_Yqyv-vWQaH6brIFqNbeO_61HpN/view?usp=sharing"
-			>
-				Curso de HTML5 e CSS3 Avançado.
 			</Certificate>
 
 			{showMore && <MoreCertificates />}
