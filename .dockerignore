@@ -12,6 +12,7 @@ build
 tslint.json
 Dockerfile
 docker-compose*.yml
+README.md
 CNAME
 *.log
 
