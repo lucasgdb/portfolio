@@ -9,18 +9,6 @@
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=telegram&logoColor=white&link=https://t.me/lucasgdb)](https://t.me/lucasgdb)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lucasgdbittencourt@gmail.com)](mailto:lucasgdbittencourt@gmail.com)
 
-## Olá! 👋
-
-Meu nome é Lucas Bittencourt, Técnico em Desenvolvimento de Sistemas e apaixonado por Desenvolvimento.
-
-- :office_worker: Full Stack Software Engineer na **Ênfase Labs**
-- :blue_heart: Techs: React.js, React Native, Node.js, TypeScript, Docker, entre outras.
-- :books: Estudando CI/CD com Jenkins, Docker e AWS :heart:
-
-> :octocat: [lucasbittencourt.dev](https://lucasbittencourt.dev)
-
----
-
 ## :exclamation: Requisitos
 
 -  Node
