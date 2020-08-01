@@ -16,7 +16,7 @@ const MyTimeLine = () => (
 
 		<Timeline lineColor={'#ddd'} className="mt-0 mb-0">
 			<TimelineItem
-				dateText="05/08/2020 - Atualmente"
+				dateText="03/08/2020 - Atualmente"
 				dateInnerStyle={{ background: '#dc3545' }}
 				dateStyle={{ minWidth: 250 }}
 				style={{ color: '#dc3545' }}
@@ -39,7 +39,7 @@ const MyTimeLine = () => (
 			</TimelineItem>
 
 			<TimelineItem
-				dateText="10/02/2020 - 05/08/2020"
+				dateText="10/02/2020 - 31/07/2020"
 				dateInnerStyle={{ background: '#0F9D58' }}
 				dateStyle={{ minWidth: 250 }}
 				style={{ color: '#0F9D58' }}
