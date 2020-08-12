@@ -21,17 +21,17 @@ const MyTimeLine = () => (
 				dateStyle={{ minWidth: 250 }}
 				style={{ color: '#dc3545' }}
 			>
-				<h3>Ênfase Labs</h3>
+				<h3>Ênfase</h3>
 				<h4 className="text-black-50">Engenheiro de Software Full Stack</h4>
 
 				<p className="mt-4">
-					Ênfase Labs é Líder na área de concursos jurídicos federais.
+					Ênfase é Líder na área de concursos jurídicos federais.
 					Nosso foco é no desenvolvimento de plataformas e serviços que
 					otimizem a aprendizagem dos nossos alunos.
 				</p>
 				<p>
 					Lá trabalhamos com várias tecnologias, como React.js, Node.js,
-					Relay, GraphQL, MongoDB, Docker, Python, AWS, entre outras.
+					Relay, GraphQL, Postgres, Docker, Python, AWS, entre outras.
 				</p>
 
 				<span className="badge bg-primary p-2">CLT</span>
