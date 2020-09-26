@@ -21,13 +21,18 @@ const MyTimeLine = () => (
 				dateStyle={{ minWidth: 250 }}
 				style={{ color: '#dc3545' }}
 			>
-				<h3>Ênfase</h3>
+				<h3>
+					Ênfase Labs
+					<span role="img" aria-label="Fire">
+						🔥
+					</span>
+				</h3>
 				<h4 className="text-black-50">Engenheiro de Software Full Stack</h4>
 
 				<p className="mt-4">
-					Ênfase é Líder na área de concursos jurídicos federais.
-					Nosso foco é no desenvolvimento de plataformas e serviços que
-					otimizem a aprendizagem dos nossos alunos.
+					Ênfase é Líder na área de concursos jurídicos federais. Nosso
+					foco é no desenvolvimento de plataformas e serviços que otimizem
+					a aprendizagem dos nossos alunos.
 				</p>
 				<p>
 					Lá trabalhamos com várias tecnologias, como React.js, Node.js,
@@ -54,18 +59,6 @@ const MyTimeLine = () => (
 				<p>
 					Lá trabalhamos com várias tecnologias, como C#, Java, PHP,
 					JavaScript, React, Docker, Git, entre outras.
-				</p>
-				<p>
-					Atuei nos seguintes projetos:{' '}
-					<a
-						href="https://toaqui.liax.com.br"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Tô Aqui
-					</a>
-					, Vacation Manager, KingX Automation e LIAX Opportunity
-					Management.
 				</p>
 
 				<span className="badge bg-primary p-2">Estágio</span>
