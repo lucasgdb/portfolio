@@ -14,7 +14,7 @@ const MyTimeLine = () => (
 			</h1>
 		</Reveal>
 
-		<Timeline lineColor={'#ddd'} className="mt-0 mb-0">
+		<Timeline lineColor="#ddd" className="mt-0 mb-0">
 			<TimelineItem
 				dateText="03/08/2020 - Atualmente"
 				dateInnerStyle={{ background: '#dc3545' }}
