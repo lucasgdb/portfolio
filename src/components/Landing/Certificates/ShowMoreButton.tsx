@@ -1,11 +1,11 @@
 import React from 'react';
 
-interface IProps {
+type ShowMoreProps = {
 	showMore: boolean;
 	setShowMore: React.Dispatch<React.SetStateAction<boolean>>;
-}
+};
 
-const ShowMore = ({ showMore, setShowMore }: IProps) => (
+const ShowMore: React.FC<ShowMoreProps> = ({ showMore, setShowMore }) => (
 	<div className="d-flex justify-content-center mt-3">
 		<button
 			className="btn btn-danger"

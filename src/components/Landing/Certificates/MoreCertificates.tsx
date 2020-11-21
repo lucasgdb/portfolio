@@ -1,7 +1,7 @@
 import React from 'react';
-import Certificate from '~/components/Certificate';
+import Certificate from './Certificate';
 
-const MoreCertificates = () => (
+const MoreCertificates: React.FC = () => (
 	<>
 		<Certificate
 			title="JavaScript ES6"

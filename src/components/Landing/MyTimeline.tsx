@@ -3,7 +3,7 @@ import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
-const MyTimeLine = () => (
+const MyTimeLine: React.FC = () => (
 	<div id="my-timeline">
 		<Reveal animation={Animation.FadeInUp}>
 			<h1

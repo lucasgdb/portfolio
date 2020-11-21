@@ -8,7 +8,7 @@ import stackOverFlowIcon from '~/static/stackoverflow.png';
 import telegramIcon from '~/static/telegram.png';
 import whatsAppIcon from '~/static/whatsapp.png';
 
-const Footer = () => {
+const Footer: React.FC = () => {
 	const [show, setShow] = useState(false);
 	const [st, setSt] = useState(
 		window.pageYOffset || document.documentElement.scrollTop

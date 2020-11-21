@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactGenieAnimations } from 'react-genie-styled-components';
-import Routes from '~/routes';
+import Routes from '~/routes/routes';
 
 function App() {
 	return (

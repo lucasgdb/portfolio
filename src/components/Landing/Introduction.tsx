@@ -2,7 +2,7 @@ import React from 'react';
 import { AnimatedTitle, Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 
-const Introduction = () => (
+const Introduction: React.FC = () => (
 	<div
 		className="bg-dark d-flex justify-content-center align-items-center position-relative"
 		style={{ height: '100vh' }}

@@ -4,7 +4,7 @@ import { Animation } from 'react-genie-styled-components';
 import { Link } from 'react-router-dom';
 import Scrollspy from 'react-scrollspy';
 
-const Header = () => (
+const Header: React.FC = () => (
 	<nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark ">
 		<div className="container-fluid">
 			<Reveal animation={Animation.FadeInLeft}>

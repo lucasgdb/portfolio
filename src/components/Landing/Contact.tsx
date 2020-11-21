@@ -8,7 +8,7 @@ import stackOverFlowIcon from '~/static/stackoverflow.png';
 import telegramIcon from '~/static/telegram.png';
 import whatsAppIcon from '~/static/whatsapp.png';
 
-const Contact = () => {
+const Contact: React.FC = () => {
 	const form = useRef() as React.MutableRefObject<HTMLFormElement>;
 
 	const handleOnSubmit = (event: React.FormEvent<HTMLFormElement>) => {

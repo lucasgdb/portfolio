@@ -2,13 +2,18 @@ import React from 'react';
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 
-interface IProps {
+type CertificateProps = {
 	title: string;
 	subTitle: string;
 	url: string;
-}
+};
 
-const Certificate: React.FC<IProps> = ({ children, title, subTitle, url }) => (
+const Certificate: React.FC<CertificateProps> = ({
+	children,
+	title,
+	subTitle,
+	url,
+}) => (
 	<Reveal
 		style={{ margin: 10, width: '100%', maxWidth: '22rem' }}
 		animation={Animation.FadeInUp}
