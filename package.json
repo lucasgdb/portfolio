@@ -18,7 +18,6 @@
     "eject": "react-app-rewired eject"
   },
   "dependencies": {
-    "history": "^5.0.0",
     "react": "^17.0.1",
     "react-animations": "^1.0.0",
     "react-back-to-top-button": "^0.0.14",

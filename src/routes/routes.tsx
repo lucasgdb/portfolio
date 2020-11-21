@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { createBrowserHistory } from 'history';
 import React from 'react';
 import ReactGA from 'react-ga';
@@ -14,7 +15,7 @@ export default function Routes() {
   );
 }
 
-history.listen(({ location }) => {
+history.listen((location) => {
   ReactGA.ga('set', 'page', location.pathname + location.search);
   ReactGA.ga('send', 'pageview');
 });
