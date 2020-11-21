@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-   web:
-      image: portfolio/web
-      container_name: portfolio_web
-      build: .
-      ports:
-         - 80:80
+  web:
+    image: portfolio/web
+    container_name: portfolio_web
+    build: .
+    ports:
+      - 80:80

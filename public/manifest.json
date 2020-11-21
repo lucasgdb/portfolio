@@ -1,25 +1,25 @@
 {
-	"short_name": "Portfólio",
-	"name": "Lucas Bittencourt",
-	"icons": [
-		{
-			"src": "static/icon.png",
-			"sizes": "64x64",
-			"type": "image/png"
-		},
-		{
-			"src": "static/logo192.png",
-			"type": "image/png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "static/logo512.png",
-			"type": "image/png",
-			"sizes": "512x512"
-		}
-	],
-	"start_url": ".",
-	"display": "standalone",
-	"theme_color": "#343a40",
-	"background_color": "#fff"
+  "short_name": "Portfólio",
+  "name": "Lucas Bittencourt",
+  "icons": [
+    {
+      "src": "static/icon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "static/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "static/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#343a40",
+  "background_color": "#fff"
 }

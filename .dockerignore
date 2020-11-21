@@ -9,7 +9,8 @@ build
 # Files
 .gitignore
 .prettierrc
-tslint.json
+.eslintrc.js
+.eslintignore
 Dockerfile
 docker-compose*.yml
 README.md
