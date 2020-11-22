@@ -9,6 +9,14 @@ const MoreCertificates: React.FC<MoreCertificatesProps> = ({ showMore }) =>
   showMore ? (
     <>
       <Certificate
+        title="React Conf - Participação"
+        subTitle="React Conf 11/2020"
+        url="https://drive.google.com/file/d/1t7qi6oUSvV2huw1QJ2kUzv5eNqRDG8CN/view?usp=sharing"
+      >
+        Participação no evento da React Conf 2020
+      </Certificate>
+
+      <Certificate
         title="JavaScript ES6"
         subTitle="TreinaWeb 01/2019"
         url="https://drive.google.com/file/d/1nbWhwygwMXWRorjpKqb7H7ov28SxCxoA/view?usp=sharing"
