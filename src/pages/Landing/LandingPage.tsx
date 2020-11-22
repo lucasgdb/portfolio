@@ -3,7 +3,7 @@ import BackToTop from 'react-back-to-top-button';
 import Header from '~/components/Header';
 import Certificates from '~/components/Landing/Certificates/Certificates';
 import Contact from '~/components/Landing/Contact/Contact';
-import Footer from '~/components/Landing/Footer';
+import Footer from '~/components/Landing/Footer/Footer';
 import Introduction from '~/components/Landing/Introduction';
 import MyTimeline from '~/components/Landing/MyTimeline';
 import Technologies from '~/components/Landing/Technologies/Technologies';

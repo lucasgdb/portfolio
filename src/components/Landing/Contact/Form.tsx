@@ -1,6 +1,11 @@
 import React, { useRef } from 'react';
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
+import styled from 'styled-components';
+
+const StyledForm = styled.form`
+  max-width: 350px;
+`;
 
 const Form: React.FC = () => {
   const form = useRef() as React.MutableRefObject<HTMLFormElement>;
@@ -20,11 +25,10 @@ const Form: React.FC = () => {
 
   return (
     <div className="col-12 col-md-6 mt-4 order-md-2 border-md-left">
-      <form
+      <StyledForm
         ref={form}
         onSubmit={handleOnSubmit}
         className="contact-form-mobile"
-        style={{ maxWidth: 350 }}
       >
         <Reveal animation={Animation.FadeInRight}>
           <div className="mb-3">
@@ -72,11 +76,11 @@ const Form: React.FC = () => {
             />
           </div>
 
-          <button type="button" className="btn btn-danger w-100">
+          <button type="submit" className="btn btn-danger w-100">
             Enviar
           </button>
         </Reveal>
-      </form>
+      </StyledForm>
     </div>
   );
 };

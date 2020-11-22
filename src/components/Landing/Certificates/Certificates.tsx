@@ -57,7 +57,7 @@ const Certificates: React.FC = () => {
           Curso básico de HTML5 e CSS3 do Curso em Vídeo (Gustavo Guanabara)
         </Certificate>
 
-        {showMore && <MoreCertificates />}
+        <MoreCertificates showMore={showMore} />
       </div>
 
       <ShowMore showMore={showMore} setShowMore={setShowMore} />
