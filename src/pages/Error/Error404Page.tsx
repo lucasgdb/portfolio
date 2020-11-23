@@ -1,4 +1,3 @@
-import React from 'react';
 import { AnimatedTitle, Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import { Link } from 'react-router-dom';

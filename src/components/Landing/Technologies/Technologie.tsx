@@ -1,4 +1,4 @@
-import React from 'react';
+import { Fragment } from 'react';
 import { Reveal } from 'react-genie';
 import styled from 'styled-components';
 
@@ -45,7 +45,7 @@ const Technologie: React.FC<TechnologieProps> = ({
         <h6 className="card-subtitle mb-2 text-muted">{subTitle}</h6>
         <div className="card-text">
           {technologies.map((technologie) => (
-            <React.Fragment key={technologie.id}>
+            <Fragment key={technologie.id}>
               <p className="mt-3 mb-1 text-dark">{technologie.name}</p>
 
               <div className="progress">
@@ -58,7 +58,7 @@ const Technologie: React.FC<TechnologieProps> = ({
                   aria-valuemax={100}
                 />
               </div>
-            </React.Fragment>
+            </Fragment>
           ))}
         </div>
       </div>

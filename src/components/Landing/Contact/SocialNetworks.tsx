@@ -1,4 +1,3 @@
-import React from 'react';
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import facebookIcon from '~/static/facebook.png';

@@ -1,6 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { createBrowserHistory } from 'history';
-import React from 'react';
 import ReactGA from 'react-ga';
 import { Router } from 'react-router-dom';
 import AppRoutes from './app.route';

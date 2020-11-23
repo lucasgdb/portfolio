@@ -1,4 +1,3 @@
-import React from 'react';
 import BackToTop from 'react-back-to-top-button';
 import Header from '~/components/Header';
 import Certificates from '~/components/Landing/Certificates/Certificates';

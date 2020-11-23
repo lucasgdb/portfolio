@@ -11,6 +11,7 @@ build
 .prettierrc
 .eslintrc.js
 .eslintignore
+.eslintcache
 Dockerfile
 docker-compose*.yml
 README.md

@@ -1,4 +1,3 @@
-import React from 'react';
 import Certificate from './Certificate';
 
 type MoreCertificatesProps = {

@@ -24,6 +24,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     curly: ['error', 'all'],
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': 'off',
     'function-paren-newline': 'off',
     'react/forbid-prop-types': 'off',

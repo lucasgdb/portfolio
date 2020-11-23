@@ -1,5 +1,3 @@
-import React from 'react';
-
 type ShowMoreProps = {
   showMore: boolean;
   setShowMore: React.Dispatch<React.SetStateAction<boolean>>;
