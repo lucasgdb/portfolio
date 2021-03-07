@@ -39,7 +39,7 @@ const MyTimeLine: React.FC = () => (
         </p>
 
         <span className="badge bg-primary p-2">CLT</span>
-        <span className="badge bg-primary p-2 ml-1">Remoto</span>
+        <span className="badge bg-primary p-2 ms-1">Remoto</span>
       </TimelineItem>
 
       <TimelineItem
@@ -82,7 +82,7 @@ const MyTimeLine: React.FC = () => (
         </p>
 
         <span className="badge bg-primary p-2">Tecnólogo</span>
-        <span className="badge bg-success p-2 ml-1">Faculdade</span>
+        <span className="badge bg-success p-2 ms-1">Faculdade</span>
       </TimelineItem>
 
       <TimelineItem
@@ -105,7 +105,7 @@ const MyTimeLine: React.FC = () => (
         </p>
 
         <span className="badge bg-primary p-2">Técnico</span>
-        <span className="badge bg-success p-2 ml-1">Escola Técnica</span>
+        <span className="badge bg-success p-2 ms-1">Escola Técnica</span>
       </TimelineItem>
     </Timeline>
   </div>

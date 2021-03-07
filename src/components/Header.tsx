@@ -8,14 +8,14 @@ const Header: React.FC = () => (
     <div className="container-fluid">
       <Reveal animation={Animation.FadeInLeft}>
         <Link
-          className="navbar-brand text-light ml-2 d-flex align-items-center"
+          className="navbar-brand text-light ms-2 d-flex align-items-center"
           to="/"
         >
           <img
             src={`${process.env.PUBLIC_URL}/static/icon.png`}
             alt="Lucas Bittencourt"
             width={35}
-            className="mr-2"
+            className="me-2"
           />
           Bittencourt
         </Link>
@@ -33,10 +33,10 @@ const Header: React.FC = () => (
           </a>
 
           <button
-            className="navbar-toggler ml-2"
+            className="navbar-toggler ms-2"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarToggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
             aria-controls="navbarToggler"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -49,7 +49,7 @@ const Header: React.FC = () => (
       <div className="collapse navbar-collapse order-lg-1" id="navbarToggler">
         <Scrollspy
           items={['my-timeline', 'certificates', 'technologies', 'contact']}
-          className="navbar-nav mr-auto mb-2 mb-lg-0"
+          className="navbar-nav me-auto mb-2 mb-lg-0"
           currentClassName="bg-danger"
         >
           <li className="nav-item">

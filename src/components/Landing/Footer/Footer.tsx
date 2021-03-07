@@ -41,35 +41,35 @@ const Footer: React.FC = () => {
           image={stackOverFlowIcon}
           alt="StackOverFlow"
           link="https://pt.stackoverflow.com/users/93508/lucas-bittencourt"
-          additionalClass="ml-2"
+          additionalClass="ms-2"
         />
 
         <Icon
           image={githubIcon}
           alt="GitHub"
           link="https://github.com/lucasgdb"
-          additionalClass="ml-2"
+          additionalClass="ms-2"
         />
 
         <Icon
           image={facebookIcon}
           alt="Facebook"
           link="https://www.facebook.com/lucasgdbittencourt"
-          additionalClass="ml-2"
+          additionalClass="ms-2"
         />
 
         <Icon
           image={whatsAppIcon}
           alt="WhatsApp"
           link="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
-          additionalClass="ml-2"
+          additionalClass="ms-2"
         />
 
         <Icon
           image={telegramIcon}
           alt="Telegram"
           link="tg://resolve?domain=lucasgdb"
-          additionalClass="ml-2"
+          additionalClass="ms-2"
         />
       </Reveal>
     </nav>
