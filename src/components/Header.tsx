@@ -25,7 +25,7 @@ const Header: React.FC = () => (
         <Reveal animation={Animation.FadeInRight}>
           <a
             className="btn bg-danger text-white"
-            href="./static/Resume.pdf"
+            href="./static/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
