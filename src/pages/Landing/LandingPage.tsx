@@ -5,7 +5,6 @@ import Contact from '~/components/Landing/Contact/Contact';
 import Footer from '~/components/Landing/Footer/Footer';
 import Introduction from '~/components/Landing/Introduction';
 import MyTimeline from '~/components/Landing/MyTimeline';
-import Technologies from '~/components/Landing/Technologies/Technologies';
 
 const LandingPage: React.FC = () => (
   <>
@@ -13,7 +12,6 @@ const LandingPage: React.FC = () => (
     <Introduction />
     <MyTimeline />
     <Certificates />
-    <Technologies />
     <Contact />
     <Footer />
 
