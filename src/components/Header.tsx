@@ -48,7 +48,7 @@ const Header: React.FC = () => (
 
       <div className="collapse navbar-collapse order-lg-1" id="navbarToggler">
         <Scrollspy
-          items={['my-timeline', 'certificates', 'technologies', 'contact']}
+          items={['my-timeline', 'certificates', 'contact']}
           className="navbar-nav me-auto mb-2 mb-lg-0"
           currentClassName="bg-danger"
         >
@@ -64,14 +64,6 @@ const Header: React.FC = () => (
             <a className="nav-item" href="#certificates">
               <button type="button" className="btn text-white w-100">
                 Certificados
-              </button>
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-item" href="#technologies">
-              <button type="button" className="btn text-white w-100">
-                Tecnologias
               </button>
             </a>
           </li>
