@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
   );
 
   useEffect(() => {
-    setShow(scrollTop >= 30.27);
+    setShow(scrollTop >= 30);
   }, [scrollTop]);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
   }, []);
 
   return show ? (
-    <nav className="navbar fixed-bottom navbar-light bg-dark d-flex justify-content-center p-1">
+    <nav className="navbar fixed-bottom navbar-light bg-dark d-flex justify-content-center pt-2 pb-2">
       <Reveal animation={Animation.FadeInRight}>
         <Icon
           image={linkedInIcon}
