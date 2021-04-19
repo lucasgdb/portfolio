@@ -46,7 +46,6 @@ const SocialNetworks: React.FC = () => (
         link="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
       />
 
-
       <SocialNetwork
         image={telegramIcon}
         title="Telegram"
