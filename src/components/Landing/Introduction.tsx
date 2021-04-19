@@ -24,7 +24,9 @@ const Introduction: React.FC = () => (
             Lucas Bittencourt
           </AnimatedTitle>
         </h1>
+      </Reveal>
 
+      <Reveal animation={Animation.FadeInUp}>
         <span className="text-danger font-weight-bold">
           Desenvolvedor JavaScript
         </span>
