@@ -20,7 +20,6 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-animations": "^1.0.0",
-    "react-back-to-top-button": "^0.0.14",
     "react-dom": "^17.0.1",
     "react-ga": "^3.2.1",
     "react-genie": "^0.2.2",
