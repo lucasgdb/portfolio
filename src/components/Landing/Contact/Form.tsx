@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import styled from 'styled-components';
