@@ -1,6 +1,13 @@
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
+import styled from 'styled-components';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+
+const FireIcon = styled.span`
+  position: relative;
+  top: -2px;
+  margin-left: 2px;
+`;
 
 const MyTimeLine: React.FC = () => (
   <div id="my-timeline">
@@ -22,9 +29,9 @@ const MyTimeLine: React.FC = () => (
       >
         <h3>
           Ênfase Labs
-          <span role="img" aria-label="Fire">
+          <FireIcon role="img" aria-label="Fire">
             🔥
-          </span>
+          </FireIcon>
         </h3>
         <h4 className="text-black-50">Engenheiro de Software Full Stack</h4>
 
