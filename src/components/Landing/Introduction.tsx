@@ -18,17 +18,15 @@ const Introduction: React.FC = () => (
     id="introduction"
   >
     <div>
-      <Reveal animation={Animation.FadeInUp}>
+      <Reveal animation={Animation.FadeIn}>
         <h1 className="text-light">
-          <AnimatedTitle animation={Animation.FadeInUp}>
+          <AnimatedTitle animation={Animation.SlideInLeft}>
             Lucas Bittencourt
           </AnimatedTitle>
         </h1>
 
         <span className="text-danger font-weight-bold">
-          <AnimatedTitle animation={Animation.FadeInUp}>
-            Desenvolvedor JavaScript
-          </AnimatedTitle>
+          Desenvolvedor JavaScript
         </span>
       </Reveal>
     </div>
