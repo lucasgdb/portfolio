@@ -13,10 +13,7 @@ const DownArrowIcon = styled.svg`
 `;
 
 const Introduction: React.FC = () => (
-  <OuterIntroduction
-    className="bg-dark d-flex justify-content-center align-items-center position-relative"
-    id="introduction"
-  >
+  <OuterIntroduction className="bg-dark d-flex justify-content-center align-items-center position-relative">
     <div>
       <Reveal animation={Animation.FadeIn}>
         <h1 className="text-light">

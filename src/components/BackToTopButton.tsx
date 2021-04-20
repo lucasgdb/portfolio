@@ -32,10 +32,8 @@ const BackToTopButton: React.FC = () => {
   }, []);
 
   const handleClick = () => {
-    const introductionElement: any = document.querySelector('#introduction');
-
-    window.scroll({
-      top: introductionElement?.offsetParent?.offsetTop,
+    window.scrollTo({
+      top: 0,
       behavior: 'smooth',
     });
   };
