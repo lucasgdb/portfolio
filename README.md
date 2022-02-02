@@ -39,7 +39,7 @@
 - Iniciar o build de produção localmente:
   - Digite `yarn build` para gerar a build dos pacotes.
   - Digite `yarn start -l 80` para iniciar o servidor web.
-  - Acesse `localhost` no navegador (ou `localhost:5000` sem o argumento `-l 80`).
+  - Acesse `localhost` no navegador (ou `localhost:3000` sem o argumento `-l 80`).
 
 ## :whale: Usando Docker
 
