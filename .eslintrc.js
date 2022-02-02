@@ -24,6 +24,10 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     curly: ['error', 'all'],
+    'react/function-component-definition': [
+      2,
+      { namedComponents: 'arrow-function' },
+    ],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': 'off',
     'function-paren-newline': 'off',
