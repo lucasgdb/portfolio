@@ -1,12 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
-import facebookIcon from '~/static/facebook.png';
-import githubIcon from '~/static/github.png';
-import linkedInIcon from '~/static/linkedin.png';
-import stackOverFlowIcon from '~/static/stackoverflow.png';
-import telegramIcon from '~/static/telegram.png';
-import whatsAppIcon from '~/static/whatsapp.png';
 import Icon from './Icon';
 
 const Footer: React.FC = () => {
@@ -32,41 +26,41 @@ const Footer: React.FC = () => {
     <nav className="navbar fixed-bottom navbar-light bg-dark d-flex justify-content-center pt-2 pb-2">
       <Reveal animation={Animation.FadeInRight}>
         <Icon
-          image={linkedInIcon}
+          image={`${process.env.PUBLIC_URL}/assets/icons/linkedin.png`}
           alt="LinkedIn"
           link="https://linkedin.com/in/lucas-bittencourt"
         />
 
         <Icon
-          image={stackOverFlowIcon}
+          image={`${process.env.PUBLIC_URL}/assets/icons/stackoverflow.png`}
           alt="StackOverFlow"
           link="https://pt.stackoverflow.com/users/93508/lucas-bittencourt"
           additionalClass="ms-2"
         />
 
         <Icon
-          image={githubIcon}
+          image={`${process.env.PUBLIC_URL}/assets/icons/github.png`}
           alt="GitHub"
           link="https://github.com/lucasgdb"
           additionalClass="ms-2"
         />
 
         <Icon
-          image={facebookIcon}
+          image={`${process.env.PUBLIC_URL}/assets/icons/facebook.png`}
           alt="Facebook"
           link="https://www.facebook.com/lucasgdbittencourt"
           additionalClass="ms-2"
         />
 
         <Icon
-          image={whatsAppIcon}
+          image={`${process.env.PUBLIC_URL}/assets/icons/whatsapp.png`}
           alt="WhatsApp"
           link="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
           additionalClass="ms-2"
         />
 
         <Icon
-          image={telegramIcon}
+          image={`${process.env.PUBLIC_URL}/assets/icons/telegram.png`}
           alt="Telegram"
           link="tg://resolve?domain=lucasgdb"
           additionalClass="ms-2"

@@ -12,7 +12,7 @@ const Header: React.FC = () => (
           to="/"
         >
           <img
-            src={`${process.env.PUBLIC_URL}/static/icon.png`}
+            src={`${process.env.PUBLIC_URL}/assets/icons/icon.png`}
             alt="Lucas Bittencourt"
             width={35}
             className="me-2"
@@ -25,7 +25,7 @@ const Header: React.FC = () => (
         <Reveal animation={Animation.FadeInRight}>
           <a
             className="btn bg-danger text-white"
-            href="./static/resume.pdf"
+            href={`${process.env.PUBLIC_URL}/assets/resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
           >

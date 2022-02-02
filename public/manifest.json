@@ -3,17 +3,17 @@
   "name": "Lucas Bittencourt",
   "icons": [
     {
-      "src": "static/icon.png",
+      "src": "assets/icons/icon.png",
       "sizes": "64x64",
       "type": "image/png"
     },
     {
-      "src": "static/logo192.png",
+      "src": "assets/icons/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "static/logo512.png",
+      "src": "assets/icons/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
