@@ -9,9 +9,5 @@ module.exports = {
     '@babel/preset-env',
     '@babel/preset-typescript',
   ],
-  plugins: [
-    '@babel/plugin-transform-runtime',
-    '@babel/plugin-proposal-export-default-from',
-    ['babel-plugin-styled-components', { ssr: false }],
-  ],
+  plugins: [['babel-plugin-styled-components', { ssr: false }]],
 };
