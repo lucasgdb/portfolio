@@ -24,7 +24,7 @@
 - Prettier - Code Formatter
 - GitLens - Git supercharged
 
-## :question: Como
+## :question: Iniciar desenvolvimento
 
 - Instale as dependências:
   - Digite `yarn` para instalar as dependências.
@@ -32,11 +32,14 @@
   - Digite `yarn dev` para iniciar o servidor web de Desenvolvimento.
   - Acesse `localhost:3000` no navegador.
 
-## :whale: Usando Docker
+## :whale: Desenvolvimento usando Docker
 
-- Digite `docker-compose up -d` para iniciar.
-- Acesse `localhost:3000` no navegador.
-- Digite `docker-compose stop` para desligar.
+- Instale as dependências:
+  - Digite `yarn` para instalar as dependências.
+- Iniciar:
+  - Digite `docker-compose up -d` para iniciar.
+  - Acesse `localhost:3000` no navegador.
+  - Digite `docker-compose stop` para desligar.
 
 ## :hand: Autor
 
