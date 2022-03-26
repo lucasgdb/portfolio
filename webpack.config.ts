@@ -49,12 +49,12 @@ const config: webpack.Configuration = {
       patterns: [
         {
           from: './public/assets',
-          to: '/assets',
+          to: 'assets',
           noErrorOnMissing: true,
         },
         {
           from: './public/robots.txt',
-          to: '/robots.txt',
+          to: 'robots.txt',
         },
       ],
     }),
