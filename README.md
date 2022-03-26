@@ -12,9 +12,7 @@
 ## :exclamation: Requisitos
 
 - Node
-- Yarn (recomendado)
-- Docker (opcional)
-- VSCode com TypeScript v4.1+
+- TypeScript v4.1+
 
 ## :blue_heart: Extensões VSCode
 
