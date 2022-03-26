@@ -13,27 +13,14 @@ const CardContainer = styled.div`
   max-width: 22rem;
 `;
 
-const Certificate: React.FC<CertificateProps> = ({
-  children,
-  title,
-  subTitle,
-  url,
-}) => (
-  <Reveal
-    style={{ margin: 10, width: '100%', maxWidth: '22rem' }}
-    animation={Animation.FadeInUp}
-  >
+const Certificate: React.FC<CertificateProps> = ({ children, title, subTitle, url }) => (
+  <Reveal style={{ margin: 10, width: '100%', maxWidth: '22rem' }} animation={Animation.FadeInUp}>
     <CardContainer className="card h-100">
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <h6 className="card-subtitle mb-2 text-muted">{subTitle}</h6>
         <p className="card-text">{children}</p>
-        <a
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="card-link"
-        >
+        <a href={url} target="_blank" rel="noopener noreferrer" className="card-link">
           Ver certificado
         </a>
       </div>

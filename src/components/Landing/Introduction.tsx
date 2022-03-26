@@ -17,16 +17,12 @@ const Introduction: React.FC = () => (
     <div>
       <Reveal animation={Animation.FadeIn}>
         <h1 className="text-light">
-          <AnimatedTitle animation={Animation.SlideInLeft}>
-            Lucas Bittencourt
-          </AnimatedTitle>
+          <AnimatedTitle animation={Animation.SlideInLeft}>Lucas Bittencourt</AnimatedTitle>
         </h1>
       </Reveal>
 
       <Reveal animation={Animation.FadeInUp}>
-        <span className="text-danger font-weight-bold">
-          Desenvolvedor JavaScript
-        </span>
+        <span className="text-danger font-weight-bold">Desenvolvedor JavaScript</span>
       </Reveal>
     </div>
 

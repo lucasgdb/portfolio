@@ -15,15 +15,11 @@ const Error404Page: React.FC = () => (
     <Error404PageContainer className="bg-dark d-flex justify-content-center align-items-center">
       <Reveal animation={Animation.FadeInUp}>
         <h1 className="text-white-50">
-          <AnimatedTitle animation={Animation.FadeInUp}>
-            Esta página não existe.
-          </AnimatedTitle>
+          <AnimatedTitle animation={Animation.FadeInUp}>Esta página não existe.</AnimatedTitle>
         </h1>
 
         <Link className="text-danger text-decoration-none" to="/">
-          <AnimatedTitle animation={Animation.FadeInUp}>
-            Clique aqui para voltar
-          </AnimatedTitle>
+          <AnimatedTitle animation={Animation.FadeInUp}>Clique aqui para voltar</AnimatedTitle>
         </Link>
       </Reveal>
     </Error404PageContainer>

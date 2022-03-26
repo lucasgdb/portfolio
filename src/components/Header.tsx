@@ -7,28 +7,15 @@ const Header: React.FC = () => (
   <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div className="container-fluid">
       <Reveal animation={Animation.FadeInLeft}>
-        <Link
-          className="navbar-brand text-light ms-2 d-flex align-items-center"
-          to="/"
-        >
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/icons/icon.png`}
-            alt="Lucas Bittencourt"
-            width={35}
-            className="me-2"
-          />
+        <Link className="navbar-brand text-light ms-2 d-flex align-items-center" to="/">
+          <img src="/assets/icons/icon.png" alt="Lucas Bittencourt" width={35} className="me-2" />
           Bittencourt
         </Link>
       </Reveal>
 
       <div className="order-lg-2">
         <Reveal animation={Animation.FadeInRight}>
-          <a
-            className="btn bg-danger text-white"
-            href={`${process.env.PUBLIC_URL}/assets/resume.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn bg-danger text-white" href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">
             Currículo
           </a>
 

@@ -1,9 +1,12 @@
 version: '3.8'
 
 services:
-  web:
-    image: portfolio/web
-    container_name: portfolio_web
-    build: .
+  portfolio:
+    image: node:lts-alpine3.14
+    container_name: portfolio
+    working_dir: /app
+    volumes:
+      - .:/app
+    entrypoint: yarn dev
     ports:
-      - 80:80
+      - 3000:3000

@@ -24,10 +24,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     curly: ['error', 'all'],
-    'react/function-component-definition': [
-      2,
-      { namedComponents: 'arrow-function' },
-    ],
+    'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': 'off',
     'function-paren-newline': 'off',
@@ -63,10 +60,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
     'react/destructuring-assignment': 'off',
-    'react/jsx-wrap-multilines': [
-      'error',
-      { declaration: false, assignment: false },
-    ],
+    'react/jsx-wrap-multilines': ['error', { declaration: false, assignment: false }],
     camelcase: 'off',
     'jsx-a11y/label-has-associated-control': [
       'error',

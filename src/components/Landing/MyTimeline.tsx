@@ -12,10 +12,7 @@ const FireIcon = styled.span`
 const MyTimeLine: React.FC = () => (
   <div id="my-timeline">
     <Reveal animation={Animation.FadeInUp}>
-      <h1
-        className="text-center text-dark underline"
-        style={{ marginTop: 100, marginBottom: 100 }}
-      >
+      <h1 className="text-center text-dark underline" style={{ marginTop: 100, marginBottom: 100 }}>
         Linha do tempo
       </h1>
     </Reveal>
@@ -36,13 +33,12 @@ const MyTimeLine: React.FC = () => (
         <h4 className="text-black-50">Engenheiro de Software Full Stack</h4>
 
         <p className="mt-4">
-          Ênfase é Líder na área de concursos jurídicos federais. Nosso foco é
-          no desenvolvimento de plataformas e serviços que otimizem a
-          aprendizagem dos nossos alunos.
+          Ênfase é Líder na área de concursos jurídicos federais. Nosso foco é no desenvolvimento de plataformas e
+          serviços que otimizem a aprendizagem dos nossos alunos.
         </p>
         <p>
-          Lá trabalhamos com várias tecnologias, como React.js, Node.js, Relay,
-          GraphQL, Postgres, Docker, Python, AWS, entre outras.
+          Lá trabalhamos com várias tecnologias, como React.js, Node.js, Relay, GraphQL, Postgres, Docker, Python, AWS,
+          entre outras.
         </p>
 
         <span className="badge bg-primary p-2">CLT</span>
@@ -59,13 +55,9 @@ const MyTimeLine: React.FC = () => (
         <h4 className="text-black-50">Estagiário Desenvolvedor</h4>
 
         <p className="mt-4">
-          Iniciei meu primeiro emprego na área de Desenvolvimento como
-          estagiário na LIAX Tecnologia
+          Iniciei meu primeiro emprego na área de Desenvolvimento como estagiário na LIAX Tecnologia
         </p>
-        <p>
-          Lá trabalhamos com várias tecnologias, como C#, Java, PHP, JavaScript,
-          React, Docker, Git, entre outras.
-        </p>
+        <p>Lá trabalhamos com várias tecnologias, como C#, Java, PHP, JavaScript, React, Docker, Git, entre outras.</p>
 
         <span className="badge bg-primary p-2">Estágio</span>
       </TimelineItem>
@@ -80,12 +72,11 @@ const MyTimeLine: React.FC = () => (
         <h4 className="text-black-50">Análise e Desenvolvimento de Sistemas</h4>
 
         <p className="mt-4">
-          Entrei na Faculdade de Tecnologia de Guaratinguetá no curso de Análise
-          e Desenvolvimento de Sistemas.
+          Entrei na Faculdade de Tecnologia de Guaratinguetá no curso de Análise e Desenvolvimento de Sistemas.
         </p>
         <p>
-          Aqui foi onde comecei a criar portfólio como Desenvolvedor,
-          participando de eventos como Hackathons e Maratonas de Programação.
+          Aqui foi onde comecei a criar portfólio como Desenvolvedor, participando de eventos como Hackathons e
+          Maratonas de Programação.
         </p>
 
         <span className="badge bg-primary p-2">Tecnólogo</span>
@@ -101,14 +92,10 @@ const MyTimeLine: React.FC = () => (
         <h3>Etec Guaratinguetá</h3>
         <h4 className="text-black-50">Desenvolvimento de Sistemas</h4>
 
-        <p className="mt-4">
-          Entrei na Escola Técnica de Guaratinguetá no curso de Desenvolvimento
-          de Sistemas.
-        </p>
+        <p className="mt-4">Entrei na Escola Técnica de Guaratinguetá no curso de Desenvolvimento de Sistemas.</p>
         <p>
-          Aqui foi onde tive meu primeiro contato em um curso onde comecei a
-          aprender na prática as coisas que eu gostava, que era programar.
-          Conheci pessoas incríveis que levo pra vida.
+          Aqui foi onde tive meu primeiro contato em um curso onde comecei a aprender na prática as coisas que eu
+          gostava, que era programar. Conheci pessoas incríveis que levo pra vida.
         </p>
 
         <span className="badge bg-primary p-2">Técnico</span>

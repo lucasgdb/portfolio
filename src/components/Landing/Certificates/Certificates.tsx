@@ -18,9 +18,7 @@ const Certificates: React.FC = () => {
     <div id="certificates">
       <Reveal animation={Animation.FadeInUp}>
         <Title className="text-center text-dark underline">
-          <AnimatedTitle animation={Animation.FadeIn}>
-            Certificados
-          </AnimatedTitle>
+          <AnimatedTitle animation={Animation.FadeIn}>Certificados</AnimatedTitle>
         </Title>
       </Reveal>
 

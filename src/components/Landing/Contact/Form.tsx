@@ -25,11 +25,7 @@ const Form: React.FC = () => {
 
   return (
     <div className="col-12 col-md-6 mt-4 order-md-2 border-md-left">
-      <StyledForm
-        ref={form}
-        onSubmit={handleOnSubmit}
-        className="contact-form-mobile"
-      >
+      <StyledForm ref={form} onSubmit={handleOnSubmit} className="contact-form-mobile">
         <Reveal animation={Animation.FadeInRight}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label text-light">
@@ -66,14 +62,7 @@ const Form: React.FC = () => {
               Mensagem
             </label>
 
-            <textarea
-              className="form-control"
-              placeholder="Oi, Lucas!"
-              id="message"
-              name="message"
-              rows={3}
-              required
-            />
+            <textarea className="form-control" placeholder="Oi, Lucas!" id="message" name="message" rows={3} required />
           </div>
 
           <button type="submit" className="btn btn-danger w-100">

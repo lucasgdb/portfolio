@@ -100,8 +100,7 @@ const MoreCertificates: React.FC<MoreCertificatesProps> = ({ showMore }) =>
         subTitle="ISA 10/2018"
         url="https://drive.google.com/file/d/1d-LiznJXUzrkR7D-QqnE0gx-nmnZ5d-e/view?usp=sharing"
       >
-        Curso de Indústria 4.0 da Expo ISA Vale Section (International Society
-        of Automatio)
+        Curso de Indústria 4.0 da Expo ISA Vale Section (International Society of Automatio)
       </Certificate>
 
       <Certificate
@@ -117,8 +116,7 @@ const MoreCertificates: React.FC<MoreCertificatesProps> = ({ showMore }) =>
         subTitle="ETEC 10/2018"
         url="https://drive.google.com/file/d/15iZjeAkV-0MY0wf9VjqBhw-QGSUPGBUV/view?usp=sharing"
       >
-        Palestra Layout de Sistemas: Conceito de Design para Programadores feito
-        na SETI 2018 da ETEC.
+        Palestra Layout de Sistemas: Conceito de Design para Programadores feito na SETI 2018 da ETEC.
       </Certificate>
 
       <Certificate

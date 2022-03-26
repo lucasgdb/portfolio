@@ -12,13 +12,9 @@ const OuterContact = styled.div`
 const Contact: React.FC = () => (
   <OuterContact id="contact" className="bg-dark pb-5">
     <Reveal animation={Animation.FadeInUp}>
-      <h1 className="text-center text-light underline underline-light mb-4">
-        Contato
-      </h1>
+      <h1 className="text-center text-light underline underline-light mb-4">Contato</h1>
 
-      <p className="text-center text-white-50">
-        Entre em contato comigo de forma rápida!
-      </p>
+      <p className="text-center text-white-50">Entre em contato comigo de forma rápida!</p>
     </Reveal>
 
     <div className="container mb-4">

@@ -14,9 +14,7 @@ const BackToTop = styled.div`
 
 const BackToTopButton: React.FC = () => {
   const [show, setShow] = useState(false);
-  const [scrollTop, setScrollTop] = useState(
-    window.pageYOffset || document.documentElement.scrollTop
-  );
+  const [scrollTop, setScrollTop] = useState(window.pageYOffset || document.documentElement.scrollTop);
 
   useEffect(() => {
     setShow(scrollTop >= 30);
@@ -24,8 +22,7 @@ const BackToTopButton: React.FC = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      const newScrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
+      const newScrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
       setScrollTop(newScrollTop);
     });
