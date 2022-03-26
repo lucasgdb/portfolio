@@ -12,7 +12,6 @@
   },
   "scripts": {
     "dev": "webpack serve --config webpack.dev.ts",
-    "build:homolog": "webpack --config webpack.homolog.ts",
     "build": "webpack --config webpack.prod.ts",
     "format": "prettier --ignore-path .eslintignore --write --check ."
   },
