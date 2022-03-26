@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
+
 import LoadingPage from '~/pages/Loading/LoadingPage';
 
 const LandingPage = lazy(() => import('~/pages/Landing/LandingPage'));

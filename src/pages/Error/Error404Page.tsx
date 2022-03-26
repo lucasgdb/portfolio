@@ -2,6 +2,7 @@ import { AnimatedTitle, Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
 import Header from '~/components/Header';
 
 const Error404PageContainer = styled.div`

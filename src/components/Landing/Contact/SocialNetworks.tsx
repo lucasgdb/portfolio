@@ -1,5 +1,6 @@
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
+
 import SocialNetwork from './SocialNetwork';
 
 const SocialNetworks: React.FC = () => (

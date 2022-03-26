@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { AnimatedTitle, Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import styled from 'styled-components';
+
 import Certificate from './Certificate';
 import MoreCertificates from './MoreCertificates';
 import ShowMore from './ShowMoreButton';

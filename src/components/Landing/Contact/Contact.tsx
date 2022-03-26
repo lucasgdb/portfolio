@@ -1,6 +1,7 @@
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import styled from 'styled-components';
+
 import Form from './Form';
 import SocialNetworks from './SocialNetworks';
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
+
 import Icon from './Icon';
 
 const Footer: React.FC = () => {
