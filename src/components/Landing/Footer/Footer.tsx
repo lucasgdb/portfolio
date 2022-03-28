@@ -31,7 +31,7 @@ const Footer = () => {
 
         <Icon
           image="/assets/icons/stackoverflow.png"
-          alt="StackOverFlow"
+          alt="StackOverflow"
           link="https://pt.stackoverflow.com/users/93508/lucas-bittencourt"
           additionalClass="ms-2"
         />

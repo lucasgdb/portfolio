@@ -15,7 +15,7 @@ const SocialNetworks = () => (
 
       <SocialNetwork
         image="/assets/icons/stackoverflow.png"
-        title="StackOverFlow"
+        title="StackOverflow"
         reference="/lucas-bittencourt"
         link="https://pt.stackoverflow.com/users/93508/lucas-bittencourt"
       />
