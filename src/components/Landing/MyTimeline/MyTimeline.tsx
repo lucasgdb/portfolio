@@ -1,6 +1,6 @@
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import { Timeline } from 'vertical-timeline-component-for-react';
 
 import CursoEnfase from './CursoEnfase';
 import Etec from './Etec';
