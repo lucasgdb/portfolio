@@ -14,7 +14,8 @@ const OuterCertificates = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  padding: 24px;
+  padding: 76px 24px 100px;
+  margin-top: 24px;
 `;
 
 const Title = styled.h1`

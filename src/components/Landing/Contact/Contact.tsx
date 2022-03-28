@@ -6,7 +6,8 @@ import Form from './Form';
 import SocialNetworks from './SocialNetworks';
 
 const OuterContact = styled.div`
-  padding: 24px 0;
+  padding: 76px 0 100px;
+  margin-top: 24px;
 
   min-height: 100vh;
 
@@ -16,7 +17,7 @@ const OuterContact = styled.div`
 `;
 
 const Contact = () => (
-  <OuterContact id="contact" className="bg-dark pb-5">
+  <OuterContact id="contact" className="bg-dark">
     <Reveal animation={Animation.FadeInUp}>
       <h1 className="text-center text-light underline underline-light mb-4">Contato</h1>
 
