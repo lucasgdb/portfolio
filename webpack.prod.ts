@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { merge } from 'webpack-merge';
 
 import webpackConfig from './webpack.config';

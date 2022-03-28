@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import path from 'path';
 import 'webpack-dev-server';
