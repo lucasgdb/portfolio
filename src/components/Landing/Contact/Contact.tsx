@@ -6,8 +6,13 @@ import Form from './Form';
 import SocialNetworks from './SocialNetworks';
 
 const OuterContact = styled.div`
-  margin-top: 100px;
-  padding-top: 50px;
+  padding: 24px 0;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 const Contact = () => (
@@ -18,7 +23,7 @@ const Contact = () => (
       <p className="text-center text-white-50">Entre em contato comigo de forma rápida!</p>
     </Reveal>
 
-    <div className="container mb-4">
+    <div className="container ps-4 pe-4">
       <div className="row">
         <Form />
         <SocialNetworks />

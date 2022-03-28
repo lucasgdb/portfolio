@@ -7,8 +7,17 @@ import Certificate from './Certificate';
 import MoreCertificates from './MoreCertificates';
 import ShowMore from './ShowMoreButton';
 
+const OuterCertificates = styled.div`
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 24px;
+`;
+
 const Title = styled.h1`
-  margin-top: 100px;
   margin-bottom: 94px;
 `;
 
@@ -16,7 +25,7 @@ const Certificates = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div id="certificates">
+    <OuterCertificates id="certificates">
       <Reveal animation={Animation.FadeInUp}>
         <Title className="text-center text-dark underline">
           <AnimatedTitle animation={Animation.FadeIn}>Certificados</AnimatedTitle>
@@ -56,11 +65,43 @@ const Certificates = () => {
           Curso básico de HTML5 e CSS3 do Curso em Vídeo (Gustavo Guanabara)
         </Certificate>
 
+        <Certificate
+          title="React Conf - Participação"
+          subTitle="React Conf 11/2020"
+          url="https://drive.google.com/file/d/1t7qi6oUSvV2huw1QJ2kUzv5eNqRDG8CN/view?usp=sharing"
+        >
+          Participação no evento da React Conf 2020
+        </Certificate>
+
+        <Certificate
+          title="JavaScript ES6"
+          subTitle="TreinaWeb 01/2019"
+          url="https://drive.google.com/file/d/1nbWhwygwMXWRorjpKqb7H7ov28SxCxoA/view?usp=sharing"
+        >
+          Novidades do EcmaScript 2015 (ES6) do JavaScript.
+        </Certificate>
+
+        <Certificate
+          title="JavaScript Intermediário"
+          subTitle="TreinaWeb 09/2018"
+          url="https://drive.google.com/file/d/1NZkuNnOxn8YUagqlel1TfuspOEmgib0O/view?usp=sharing"
+        >
+          Entendendo melhor o JavaScript ES5.
+        </Certificate>
+
+        <Certificate
+          title="JavaScript Básico"
+          subTitle="TreinaWeb 08/2018"
+          url="https://drive.google.com/file/d/11nR3Nu1REhJ5_oLVfGo12YBQ_KuopCdr/view?usp=sharing"
+        >
+          Começando a entender o JavaScript ES5.
+        </Certificate>
+
         <MoreCertificates showMore={showMore} />
       </div>
 
       <ShowMore showMore={showMore} setShowMore={setShowMore} />
-    </div>
+    </OuterCertificates>
   );
 };
 

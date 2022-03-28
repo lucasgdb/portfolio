@@ -1,18 +1,25 @@
 import { Reveal } from 'react-genie';
 import { Animation } from 'react-genie-styled-components';
 import { Timeline } from 'vertical-timeline-component-for-react';
+import styled from 'styled-components';
 
 import CursoEnfase from './CursoEnfase';
 import Etec from './Etec';
 import Fatec from './Fatec';
 import LIAX from './LIAX';
 
-const MyTimeLine = () => (
-  <div id="my-timeline">
+const OuterMyTimeline = styled.div`
+  padding-top: 100px;
+`;
+
+const Title = styled.h1`
+  margin-bottom: 100px;
+`;
+
+const MyTimeline = () => (
+  <OuterMyTimeline id="my-timeline">
     <Reveal animation={Animation.FadeInUp}>
-      <h1 className="text-center text-dark underline" style={{ marginTop: 100, marginBottom: 100 }}>
-        Linha do tempo
-      </h1>
+      <Title className="text-center text-dark underline">Linha do tempo</Title>
     </Reveal>
 
     <Timeline lineColor="#ddd" className="mt-0 mb-0">
@@ -21,7 +28,7 @@ const MyTimeLine = () => (
       <Fatec />
       <Etec />
     </Timeline>
-  </div>
+  </OuterMyTimeline>
 );
 
-export default MyTimeLine;
+export default MyTimeline;
