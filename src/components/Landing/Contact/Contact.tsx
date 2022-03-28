@@ -10,7 +10,7 @@ const OuterContact = styled.div`
   padding-top: 50px;
 `;
 
-const Contact: React.FC = () => (
+const Contact = () => (
   <OuterContact id="contact" className="bg-dark pb-5">
     <Reveal animation={Animation.FadeInUp}>
       <h1 className="text-center text-light underline underline-light mb-4">Contato</h1>

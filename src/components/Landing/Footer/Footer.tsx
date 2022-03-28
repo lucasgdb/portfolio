@@ -4,7 +4,7 @@ import { Animation } from 'react-genie-styled-components';
 
 import Icon from './Icon';
 
-const Footer: React.FC = () => {
+const Footer = () => {
   const [show, setShow] = useState(false);
   const [scrollTop, setScrollTop] = useState(window.pageYOffset || document.documentElement.scrollTop);
 

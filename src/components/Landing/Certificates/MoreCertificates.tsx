@@ -4,8 +4,12 @@ type MoreCertificatesProps = {
   showMore: boolean;
 };
 
-const MoreCertificates: React.FC<MoreCertificatesProps> = ({ showMore }) =>
-  showMore ? (
+const MoreCertificates = ({ showMore }: MoreCertificatesProps) => {
+  if (!showMore) {
+    return null;
+  }
+
+  return (
     <>
       <Certificate
         title="React Conf - Participação"
@@ -151,6 +155,7 @@ const MoreCertificates: React.FC<MoreCertificatesProps> = ({ showMore }) =>
         Curso de Python Básico do Curso em Vídeo.
       </Certificate>
     </>
-  ) : null;
+  );
+};
 
 export default MoreCertificates;

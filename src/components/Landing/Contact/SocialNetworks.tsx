@@ -3,7 +3,7 @@ import { Animation } from 'react-genie-styled-components';
 
 import SocialNetwork from './SocialNetwork';
 
-const SocialNetworks: React.FC = () => (
+const SocialNetworks = () => (
   <div className="col-12 col-md-6 mt-4 order-md-1">
     <Reveal animation={Animation.FadeInLeft}>
       <SocialNetwork

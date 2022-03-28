@@ -12,7 +12,7 @@ const DownArrowIcon = styled.svg`
   transform: translateX(-50%);
 `;
 
-const Introduction: React.FC = () => (
+const Introduction = () => (
   <OuterIntroduction className="bg-dark d-flex justify-content-center align-items-center position-relative">
     <div>
       <Reveal animation={Animation.FadeIn}>

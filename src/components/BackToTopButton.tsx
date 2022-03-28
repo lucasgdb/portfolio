@@ -12,7 +12,7 @@ const BackToTop = styled.div`
   cursor: pointer;
 `;
 
-const BackToTopButton: React.FC = () => {
+const BackToTopButton = () => {
   const [show, setShow] = useState(false);
   const [scrollTop, setScrollTop] = useState(window.pageYOffset || document.documentElement.scrollTop);
 

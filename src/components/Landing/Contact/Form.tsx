@@ -7,7 +7,7 @@ const StyledForm = styled.form`
   max-width: 350px;
 `;
 
-const Form: React.FC = () => {
+const Form = () => {
   const form = useRef() as React.MutableRefObject<HTMLFormElement>;
 
   const handleOnSubmit = (event: React.FormEvent<HTMLFormElement>) => {

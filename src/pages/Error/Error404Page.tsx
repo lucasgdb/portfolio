@@ -9,7 +9,7 @@ const Error404PageContainer = styled.div`
   height: 100vh;
 `;
 
-const Error404Page: React.FC = () => (
+const Error404Page = () => (
   <>
     <Header />
 

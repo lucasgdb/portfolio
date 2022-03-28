@@ -6,7 +6,7 @@ import Footer from '~/components/Landing/Footer/Footer';
 import Introduction from '~/components/Landing/Introduction';
 import MyTimeline from '~/components/Landing/MyTimeline/MyTimeline';
 
-const LandingPage: React.FC = () => (
+const LandingPage = () => (
   <>
     <Header />
     <Introduction />

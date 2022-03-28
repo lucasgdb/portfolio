@@ -12,7 +12,7 @@ type SocialNetworkProps = {
   link: string;
 };
 
-const SocialNetwork: React.FC<SocialNetworkProps> = ({ image, title, reference, link }) => (
+const SocialNetwork = ({ image, title, reference, link }: SocialNetworkProps) => (
   <SocialNetworkContainer className="d-flex flex-column align-items-md-end">
     <div className="d-flex align-items-center">
       <img className="order-md-2" src={image} alt={title} width={30} />{' '}

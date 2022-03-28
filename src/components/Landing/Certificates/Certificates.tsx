@@ -12,7 +12,7 @@ const Title = styled.h1`
   margin-bottom: 94px;
 `;
 
-const Certificates: React.FC = () => {
+const Certificates = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
