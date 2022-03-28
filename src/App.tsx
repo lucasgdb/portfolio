@@ -1,12 +1,18 @@
-import { ReactGenieAnimations } from 'react-genie-styled-components';
+import ReactGA from 'react-ga';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router';
 
-import Routes from '~/routes/routes';
+import { AppRoutes } from './routes';
 
-const App: React.FC = () => (
-  <>
-    <ReactGenieAnimations />
-    <Routes />
-  </>
-);
+const App = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.ga('set', 'page', location.pathname + location.search);
+    ReactGA.ga('send', 'pageview');
+  }, [location]);
+
+  return <AppRoutes />;
+};
 
 export default App;
