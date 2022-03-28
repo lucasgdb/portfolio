@@ -28,17 +28,10 @@ const SocialNetworks = () => (
       />
 
       <SocialNetwork
-        image="/assets/icons/facebook.png"
-        title="Facebook"
-        reference="/lucasgdbittencourt"
-        link="https://www.facebook.com/lucasgdbittencourt"
-      />
-
-      <SocialNetwork
         image="/assets/icons/whatsapp.png"
         title="WhatsApp"
         reference="+55 (12) 98834-4336"
-        link="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
+        link="https://api.whatsapp.com/send?phone=5512988344336&amp;text=Oi, Lucas!"
       />
 
       <SocialNetwork

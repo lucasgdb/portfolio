@@ -39,16 +39,9 @@ const Footer = () => {
         <Icon image="/assets/icons/github.png" alt="GitHub" link="https://github.com/lucasgdb" additionalClass="ms-2" />
 
         <Icon
-          image="/assets/icons/facebook.png"
-          alt="Facebook"
-          link="https://www.facebook.com/lucasgdbittencourt"
-          additionalClass="ms-2"
-        />
-
-        <Icon
           image="/assets/icons/whatsapp.png"
           alt="WhatsApp"
-          link="https://api.whatsapp.com/send?phone=5512988344336&text=Oi, Lucas!"
+          link="https://api.whatsapp.com/send?phone=5512988344336&amp;text=Oi, Lucas!"
           additionalClass="ms-2"
         />
 
