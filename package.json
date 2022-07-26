@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "version": "3.0.0",
-  "private": false,
+  "version": "3.1.0",
+  "private": true,
   "author": "Lucas Bittencourt <lucasgdbittencourt@gmail.com>",
   "repository": "lucasgdb/portfolio",
   "license": "MIT",
