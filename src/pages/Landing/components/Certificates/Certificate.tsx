@@ -14,7 +14,7 @@ type CertificateProps = {
   url: string;
 };
 
-const Certificate: React.FC<CertificateProps> = ({ title, subTitle, text, url }) => (
+const Certificate = ({ title, subTitle, text, url }: CertificateProps) => (
   <Reveal style={{ width: '100%', maxWidth: '350px' }} animation={Animation.FadeInUp}>
     <CardContainer className="card h-100">
       <div className="card-body d-flex flex-column justify-content-between">

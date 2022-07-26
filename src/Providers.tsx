@@ -1,7 +1,11 @@
 import { ReactGenieAnimations } from 'react-genie-styled-components';
 import { BrowserRouter } from 'react-router-dom';
 
-const Providers: React.FC = ({ children }) => {
+type ProvidersProps = {
+  children: React.ReactChild;
+};
+
+const Providers = ({ children }: ProvidersProps) => {
   return (
     <BrowserRouter>
       <ReactGenieAnimations />
