@@ -19,9 +19,9 @@
     "format": "prettier --ignore-path .eslintignore --write --check ."
   },
   "dependencies": {
-    "react": "^18.0.0",
+    "react": "^18.2.0",
     "react-animations": "^1.0.0",
-    "react-dom": "^18.0.0",
+    "react-dom": "^18.2.0",
     "react-ga": "^3.3.0",
     "react-genie": "^0.2.2",
     "react-genie-styled-components": "^0.1.1",
