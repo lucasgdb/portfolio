@@ -4,7 +4,7 @@ import { Animation } from 'react-genie-styled-components';
 import styled from 'styled-components';
 
 import Certificate from './Certificate';
-import ShowMoreButton from './ShowMoreButton';
+import ToggleButton from './ToggleButton';
 
 const OuterCertificateList = styled.div`
   min-height: 100vh;
@@ -156,6 +156,8 @@ const certificateList: CertificateType[] = [
 const CertificateList = () => {
   const [showMore, setShowMore] = useState(false);
 
+  const toggleShowMore = () => setShowMore((prevShowMore) => !prevShowMore);
+
   return (
     <OuterCertificateList id="certificates">
       <Reveal animation={Animation.FadeInUp}>
@@ -182,7 +184,7 @@ const CertificateList = () => {
         })}
       </div>
 
-      <ShowMoreButton showMore={showMore} setShowMore={setShowMore} />
+      <ToggleButton showMore={showMore} onClick={toggleShowMore} />
     </OuterCertificateList>
   );
 };
