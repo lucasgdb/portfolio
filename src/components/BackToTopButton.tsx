@@ -23,7 +23,6 @@ const BackToTopButton = () => {
   useEffect(() => {
     window.addEventListener('scroll', () => {
       const newScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
       setScrollTop(newScrollTop);
     });
   }, []);
@@ -35,7 +34,11 @@ const BackToTopButton = () => {
     });
   };
 
-  return show ? (
+  if (!show) {
+    return null;
+  }
+
+  return (
     <BackToTop onClick={handleClick}>
       <Reveal animation={Animation.FadeInUp}>
         <svg
@@ -53,7 +56,7 @@ const BackToTopButton = () => {
         </svg>
       </Reveal>
     </BackToTop>
-  ) : null;
+  );
 };
 
 export default BackToTopButton;

@@ -15,12 +15,7 @@ const SubTitle = styled.h2`
 
 const CursoEnfase = () => {
   return (
-    <TimelineItem
-      dateText="AGOSTO 2020 - Atualmente"
-      dateInnerStyle={{ background: '#dc3545' }}
-      dateStyle={{ minWidth: 250 }}
-      style={{ color: '#dc3545' }}
-    >
+    <TimelineItem dateText="ATIVO" dateInnerStyle={{ background: '#dc3545' }} style={{ color: '#dc3545' }}>
       <h3>
         Curso Ênfase
         <FireIcon role="img" aria-label="Fire">
@@ -81,8 +76,7 @@ const CursoEnfase = () => {
         </li>
       </ul>
 
-      <span className="badge bg-primary p-2">CLT</span>
-      <span className="badge bg-primary p-2 ms-1">PJ</span>
+      <span className="badge bg-primary p-2">Full-time</span>
       <span className="badge bg-primary p-2 ms-1">Remoto</span>
     </TimelineItem>
   );

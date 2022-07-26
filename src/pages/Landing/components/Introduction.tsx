@@ -22,7 +22,7 @@ const Introduction = () => (
       </Reveal>
 
       <Reveal animation={Animation.FadeInUp}>
-        <span className="text-danger font-weight-bold">Desenvolvedor JavaScript</span>
+        <span className="text-danger font-weight-bold">Desenvolvedor Full Stack</span>
       </Reveal>
     </div>
 

@@ -7,7 +7,7 @@ import Certificate from './Certificate';
 import MoreCertificates from './MoreCertificates';
 import ShowMore from './ShowMoreButton';
 
-const OuterCertificates = styled.div`
+const OuterCertificateList = styled.div`
   min-height: 100vh;
 
   display: flex;
@@ -22,18 +22,18 @@ const Title = styled.h1`
   margin-bottom: 94px;
 `;
 
-const Certificates = () => {
+const CertificateList = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <OuterCertificates id="certificates">
+    <OuterCertificateList id="certificates">
       <Reveal animation={Animation.FadeInUp}>
         <Title className="text-center text-dark underline">
           <AnimatedTitle animation={Animation.FadeIn}>Certificados</AnimatedTitle>
         </Title>
       </Reveal>
 
-      <div className="d-flex justify-content-center flex-wrap">
+      <div className="d-flex justify-content-center flex-wrap gap-3">
         <Certificate
           title="HTTP - Fundamentos"
           subTitle="Alura 09/2019"
@@ -102,8 +102,8 @@ const Certificates = () => {
       </div>
 
       <ShowMore showMore={showMore} setShowMore={setShowMore} />
-    </OuterCertificates>
+    </OuterCertificateList>
   );
 };
 
-export default Certificates;
+export default CertificateList;

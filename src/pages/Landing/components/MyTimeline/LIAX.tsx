@@ -9,12 +9,7 @@ const SubTitle = styled.h2`
 
 const LIAX = () => {
   return (
-    <TimelineItem
-      dateText="FEVEREIRO - JULHO 2020"
-      dateInnerStyle={{ background: '#0F9D58' }}
-      dateStyle={{ minWidth: 250 }}
-      style={{ color: '#0F9D58' }}
-    >
+    <TimelineItem dateText="CONCLUÍDO" dateInnerStyle={{ background: '#0F9D58' }} style={{ color: '#0F9D58' }}>
       <h3>LIAX</h3>
 
       <SubTitle className="text-black-50 fw-bold">Estagiário Desenvolvedor</SubTitle>

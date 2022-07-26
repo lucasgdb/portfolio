@@ -7,12 +7,7 @@ const SubTitle = styled.h2`
 
 const Fatec = () => {
   return (
-    <TimelineItem
-      dateText="JANEIRO 2019 - Atualmente"
-      dateInnerStyle={{ background: '#dc3545' }}
-      dateStyle={{ minWidth: 250 }}
-      style={{ color: '#dc3545' }}
-    >
+    <TimelineItem dateText="CURSANDO" dateInnerStyle={{ background: '#dc3545' }} style={{ color: '#dc3545' }}>
       <h3>Fatec</h3>
 
       <SubTitle className="text-black-50 fw-bold">Análise e Desenvolvimento de Sistemas</SubTitle>

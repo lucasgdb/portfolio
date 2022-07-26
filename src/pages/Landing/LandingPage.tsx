@@ -1,17 +1,17 @@
 import BackToTopButton from '~/components/BackToTopButton';
+import Footer from '~/components/Footer/Footer';
 import Header from '~/components/Header';
-import Certificates from '~/components/Landing/Certificates/Certificates';
-import Contact from '~/components/Landing/Contact/Contact';
-import Footer from '~/components/Landing/Footer/Footer';
-import Introduction from '~/components/Landing/Introduction';
-import MyTimeline from '~/components/Landing/MyTimeline/MyTimeline';
+import CertificateList from './components/Certificates/CertificateList';
+import Contact from './components/Contact/Contact';
+import Introduction from './components/Introduction';
+import MyTimeline from './components/MyTimeline/MyTimeline';
 
 const LandingPage = () => (
   <>
     <Header />
     <Introduction />
     <MyTimeline />
-    <Certificates />
+    <CertificateList />
     <Contact />
     <Footer />
 
