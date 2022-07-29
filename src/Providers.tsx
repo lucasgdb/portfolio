@@ -1,5 +1,5 @@
 import { ReactGenieAnimations } from 'react-genie-styled-components';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 type ProvidersProps = {
   children: React.ReactChild;
@@ -7,9 +7,9 @@ type ProvidersProps = {
 
 export default function Providers({ children }: ProvidersProps) {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ReactGenieAnimations />
       {children}
-    </HashRouter>
+    </BrowserRouter>
   );
 }
