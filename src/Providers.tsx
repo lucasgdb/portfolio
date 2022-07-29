@@ -5,13 +5,11 @@ type ProvidersProps = {
   children: React.ReactChild;
 };
 
-const Providers = ({ children }: ProvidersProps) => {
+export default function Providers({ children }: ProvidersProps) {
   return (
     <BrowserRouter>
       <ReactGenieAnimations />
       {children}
     </BrowserRouter>
   );
-};
-
-export default Providers;
+}

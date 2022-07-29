@@ -16,19 +16,19 @@ const Title = styled.h1`
   margin-bottom: 100px;
 `;
 
-const MyTimeline = () => (
-  <OuterMyTimeline id="my-timeline">
-    <Reveal animation={Animation.FadeInUp}>
-      <Title className="text-center text-dark underline">Linha do tempo</Title>
-    </Reveal>
+export default function MyTimeline() {
+  return (
+    <OuterMyTimeline id="my-timeline">
+      <Reveal animation={Animation.FadeInUp}>
+        <Title className="text-center text-dark underline">Linha do tempo</Title>
+      </Reveal>
 
-    <Timeline lineColor="#ddd" className="mt-0 mb-0">
-      <CursoEnfase />
-      <LIAX />
-      <Fatec />
-      <Etec />
-    </Timeline>
-  </OuterMyTimeline>
-);
-
-export default MyTimeline;
+      <Timeline lineColor="#ddd" className="mt-0 mb-0">
+        <CursoEnfase />
+        <LIAX />
+        <Fatec />
+        <Etec />
+      </Timeline>
+    </OuterMyTimeline>
+  );
+}

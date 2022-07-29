@@ -7,7 +7,7 @@ const StyledForm = styled.form`
   max-width: 350px;
 `;
 
-const Form = () => {
+export default function Form() {
   const form = useRef() as React.MutableRefObject<HTMLFormElement>;
 
   const handleOnSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -72,6 +72,4 @@ const Form = () => {
       </StyledForm>
     </div>
   );
-};
-
-export default Form;
+}

@@ -13,7 +13,7 @@ const SubTitle = styled.h2`
   font-size: 19px;
 `;
 
-const CursoEnfase = () => {
+export default function CursoEnfase() {
   return (
     <TimelineItem dateText="ATIVO" dateInnerStyle={{ background: '#dc3545' }} style={{ color: '#dc3545' }}>
       <h3>
@@ -80,6 +80,4 @@ const CursoEnfase = () => {
       <span className="badge bg-primary p-2 ms-1">Remoto</span>
     </TimelineItem>
   );
-};
-
-export default CursoEnfase;
+}

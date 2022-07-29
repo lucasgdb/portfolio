@@ -3,7 +3,7 @@ type ShowMoreProps = {
   onClick(): void;
 };
 
-const ToggleButton = ({ showMore, onClick }: ShowMoreProps) => {
+export default function ToggleButton({ showMore, onClick }: ShowMoreProps) {
   return (
     <div className="d-flex justify-content-center mt-3">
       <button type="button" className="btn btn-danger" onClick={onClick}>
@@ -11,6 +11,4 @@ const ToggleButton = ({ showMore, onClick }: ShowMoreProps) => {
       </button>
     </div>
   );
-};
-
-export default ToggleButton;
+}

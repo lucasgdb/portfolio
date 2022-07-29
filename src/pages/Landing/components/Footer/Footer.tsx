@@ -4,7 +4,7 @@ import { Animation } from 'react-genie-styled-components';
 
 import Icon from './Icon';
 
-const Footer = () => {
+export default function Footer() {
   const [show, setShow] = useState(false);
   const [scrollTop, setScrollTop] = useState(window.pageYOffset || document.documentElement.scrollTop);
 
@@ -54,6 +54,4 @@ const Footer = () => {
       </Reveal>
     </nav>
   );
-};
-
-export default Footer;
+}

@@ -16,21 +16,21 @@ const OuterContact = styled.div`
   justify-content: center;
 `;
 
-const Contact = () => (
-  <OuterContact id="contact" className="bg-dark">
-    <Reveal animation={Animation.FadeInUp}>
-      <h1 className="text-center text-light underline underline-light mb-4">Contato</h1>
+export default function Contact() {
+  return (
+    <OuterContact id="contact" className="bg-dark">
+      <Reveal animation={Animation.FadeInUp}>
+        <h1 className="text-center text-light underline underline-light mb-4">Contato</h1>
 
-      <p className="text-center text-white-50">Entre em contato comigo de forma rápida!</p>
-    </Reveal>
+        <p className="text-center text-white-50">Entre em contato comigo de forma rápida!</p>
+      </Reveal>
 
-    <div className="container ps-4 pe-4">
-      <div className="row">
-        <Form />
-        <SocialNetworks />
+      <div className="container ps-4 pe-4">
+        <div className="row">
+          <Form />
+          <SocialNetworks />
+        </div>
       </div>
-    </div>
-  </OuterContact>
-);
-
-export default Contact;
+    </OuterContact>
+  );
+}

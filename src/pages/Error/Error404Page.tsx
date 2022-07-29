@@ -9,22 +9,22 @@ const Error404PageContainer = styled.div`
   height: 100vh;
 `;
 
-const Error404Page = () => (
-  <>
-    <Header />
+export default function Error404Page() {
+  return (
+    <>
+      <Header />
 
-    <Error404PageContainer className="bg-dark d-flex justify-content-center align-items-center">
-      <Reveal animation={Animation.FadeInUp}>
-        <h1 className="text-white-50">
-          <AnimatedTitle animation={Animation.FadeInUp}>Esta página não existe.</AnimatedTitle>
-        </h1>
+      <Error404PageContainer className="bg-dark d-flex justify-content-center align-items-center">
+        <Reveal animation={Animation.FadeInUp}>
+          <h1 className="text-white-50">
+            <AnimatedTitle animation={Animation.FadeInUp}>Esta página não existe.</AnimatedTitle>
+          </h1>
 
-        <Link className="text-danger text-decoration-none" to="/">
-          <AnimatedTitle animation={Animation.FadeInUp}>Clique aqui para voltar</AnimatedTitle>
-        </Link>
-      </Reveal>
-    </Error404PageContainer>
-  </>
-);
-
-export default Error404Page;
+          <Link className="text-danger text-decoration-none" to="/">
+            <AnimatedTitle animation={Animation.FadeInUp}>Clique aqui para voltar</AnimatedTitle>
+          </Link>
+        </Reveal>
+      </Error404PageContainer>
+    </>
+  );
+}

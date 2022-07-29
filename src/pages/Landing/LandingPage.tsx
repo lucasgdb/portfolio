@@ -6,17 +6,17 @@ import Footer from './components/Footer/Footer';
 import Introduction from './components/Introduction';
 import MyTimeline from './components/MyTimeline/MyTimeline';
 
-const LandingPage = () => (
-  <>
-    <Header />
-    <Introduction />
-    <MyTimeline />
-    <CertificateList />
-    <Contact />
-    <Footer />
+export default function LandingPage() {
+  return (
+    <>
+      <Header />
+      <Introduction />
+      <MyTimeline />
+      <CertificateList />
+      <Contact />
+      <Footer />
 
-    <BackToTopButton />
-  </>
-);
-
-export default LandingPage;
+      <BackToTopButton />
+    </>
+  );
+}

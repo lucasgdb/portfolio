@@ -2,9 +2,10 @@ import ReactGA from 'react-ga';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router';
 
-import { AppRoutes } from './routes';
+import AppRoutes from './routes';
+import Providers from './Providers';
 
-const App = () => {
+export default function App() {
   const location = useLocation();
 
   useEffect(() => {
@@ -12,7 +13,9 @@ const App = () => {
     ReactGA.ga('send', 'pageview');
   }, [location]);
 
-  return <AppRoutes />;
-};
-
-export default App;
+  return (
+    <Providers>
+      <AppRoutes />
+    </Providers>
+  );
+}

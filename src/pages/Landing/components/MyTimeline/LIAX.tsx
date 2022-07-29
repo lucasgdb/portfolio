@@ -7,7 +7,7 @@ const SubTitle = styled.h2`
   font-size: 19px;
 `;
 
-const LIAX = () => {
+export default function LIAX() {
   return (
     <TimelineItem dateText="CONCLUÍDO" dateInnerStyle={{ background: '#0F9D58' }} style={{ color: '#0F9D58' }}>
       <h3>LIAX</h3>
@@ -33,6 +33,4 @@ const LIAX = () => {
       <span className="badge bg-primary p-2">Estágio</span>
     </TimelineItem>
   );
-};
-
-export default LIAX;
+}

@@ -14,22 +14,22 @@ type CertificateProps = {
   url: string;
 };
 
-const Certificate = ({ title, subTitle, text, url }: CertificateProps) => (
-  <Reveal style={{ width: '100%', maxWidth: '350px' }} animation={Animation.FadeInUp}>
-    <CardContainer className="card h-100">
-      <div className="card-body d-flex flex-column justify-content-between">
-        <div className="mb-2">
-          <h5 className="card-title">{title}</h5>
-          <h6 className="card-subtitle mb-2 text-muted">{subTitle}</h6>
-          <p className="card-text">{text}</p>
+export default function Certificate({ title, subTitle, text, url }: CertificateProps) {
+  return (
+    <Reveal style={{ width: '100%', maxWidth: '350px' }} animation={Animation.FadeInUp}>
+      <CardContainer className="card h-100">
+        <div className="card-body d-flex flex-column justify-content-between">
+          <div className="mb-2">
+            <h5 className="card-title">{title}</h5>
+            <h6 className="card-subtitle mb-2 text-muted">{subTitle}</h6>
+            <p className="card-text">{text}</p>
+          </div>
+
+          <a href={url} target="_blank" rel="noopener noreferrer" className="card-link">
+            Ver certificado
+          </a>
         </div>
-
-        <a href={url} target="_blank" rel="noopener noreferrer" className="card-link">
-          Ver certificado
-        </a>
-      </div>
-    </CardContainer>
-  </Reveal>
-);
-
-export default Certificate;
+      </CardContainer>
+    </Reveal>
+  );
+}

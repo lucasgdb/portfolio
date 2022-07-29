@@ -153,7 +153,7 @@ const certificateList: CertificateType[] = [
   },
 ];
 
-const CertificateList = () => {
+export default function CertificateList() {
   const [showMore, setShowMore] = useState(false);
 
   const toggleShowMore = () => setShowMore((prevShowMore) => !prevShowMore);
@@ -187,6 +187,4 @@ const CertificateList = () => {
       <ToggleButton showMore={showMore} onClick={toggleShowMore} />
     </OuterCertificateList>
   );
-};
-
-export default CertificateList;
+}

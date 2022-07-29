@@ -12,7 +12,7 @@ const BackToTop = styled.div`
   cursor: pointer;
 `;
 
-const BackToTopButton = () => {
+export default function BackToTopButton() {
   const [show, setShow] = useState(false);
   const [scrollTop, setScrollTop] = useState(window.pageYOffset || document.documentElement.scrollTop);
 
@@ -57,6 +57,4 @@ const BackToTopButton = () => {
       </Reveal>
     </BackToTop>
   );
-};
-
-export default BackToTopButton;
+}

@@ -6,7 +6,7 @@ import PageLoader from './components/PageLoader';
 const LandingPage = lazy(() => import('./pages/Landing/LandingPage'));
 const Error404Page = lazy(() => import('./pages/Error/Error404Page'));
 
-export const AppRoutes = () => {
+export default function AppRoutes() {
   return (
     <Suspense fallback={<PageLoader />}>
       <Routes>
@@ -15,4 +15,4 @@ export const AppRoutes = () => {
       </Routes>
     </Suspense>
   );
-};
+}

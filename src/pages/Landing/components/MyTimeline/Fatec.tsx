@@ -5,7 +5,7 @@ const SubTitle = styled.h2`
   font-size: 19px;
 `;
 
-const Fatec = () => {
+export default function Fatec() {
   return (
     <TimelineItem dateText="CURSANDO" dateInnerStyle={{ background: '#dc3545' }} style={{ color: '#dc3545' }}>
       <h3>Fatec</h3>
@@ -28,6 +28,4 @@ const Fatec = () => {
       <span className="badge bg-success p-2 ms-1">Faculdade</span>
     </TimelineItem>
   );
-};
-
-export default Fatec;
+}
