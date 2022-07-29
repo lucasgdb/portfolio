@@ -3,7 +3,7 @@ import Header from '~/components/Header';
 import CertificateList from './components/Certificates/CertificateList';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Introduction from './components/Introduction';
+import Introduction from './components/Introduction/Introduction';
 import MyTimeline from './components/MyTimeline/MyTimeline';
 
 export default function LandingPage() {
