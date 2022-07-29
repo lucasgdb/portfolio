@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router';
 import { lazy, Suspense } from 'react';
 
 import PageLoader from './components/PageLoader';
-import EnvironmentLayout from './Layout/EnvironmentLayout';
+import EnvironmentLayout from './layout/EnvironmentLayout';
 
 const LandingPage = lazy(() => import('./pages/Landing/LandingPage'));
 const Error404Page = lazy(() => import('./pages/Error/Error404Page'));
